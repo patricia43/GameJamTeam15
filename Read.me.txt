@@ -1,0 +1,22 @@
+Created Environmental placeholders on high LOD 
+(4096px x 2160px canvass)
+Created Sorting Layers as follows
+    - Background (BG)
+    - BOTTLES for things behind the player
+    - PLAYER AND INTERACTIBLES
+    - BAR
+    - PEOPLE
+    - Foreground (FG)
+
+To do:
+- Create character placeholders on high LOD 
+(4096px x 2160px canvass)
+
+- Create final asset list with the artists
+- Attribute a sorting layer on each item on the list
+
+- Create the narrative progression
+- Create the short NPC interaction (the ideea before the scripts)
+
+- Create a list of VFX 
+- Create a list of SFX
