@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: c3b69759f5ed8544582c0664fcaeafc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2858459073502325844
+    second: Bottles L_0
+  - first:
+      213: 10747349433003981
+    second: Bottles L_1
+  - first:
+      213: 5045536714919102067
+    second: Bottles L_2
+  - first:
+      213: -2889678208674796223
+    second: Bottles L_3
+  - first:
+      213: -771357549918318285
+    second: Bottles L_4
+  - first:
+      213: 6800698796890145812
+    second: Bottles L_5
+  - first:
+      213: 6738583559861343093
+    second: Bottles L_6
+  - first:
+      213: -7442246573916680002
+    second: Bottles L_7
+  - first:
+      213: -2852912922568008824
+    second: Bottles L_8
+  - first:
+      213: 4606078607058848184
+    second: Bottles L_9
+  - first:
+      213: 8034833512071698092
+    second: Bottles L_10
+  - first:
+      213: 7551474478936504863
+    second: Bottles L_11
+  - first:
+      213: -1441728928550305872
+    second: Bottles L_12
+  - first:
+      213: 7217281004311088861
+    second: Bottles L_13
+  - first:
+      213: -9221331365608917072
+    second: Bottles L_14
+  - first:
+      213: -330880893551776435
+    second: Bottles L_15
+  - first:
+      213: -8948071895759931549
+    second: Bottles L_16
+  - first:
+      213: 8802523009614476581
+    second: Bottles L_17
+  - first:
+      213: -990418651215903213
+    second: Bottles L_18
+  - first:
+      213: -3856575215279941091
+    second: Bottles L_19
+  - first:
+      213: -3391461885056440561
+    second: Bottles L_20
+  - first:
+      213: -8062708281998485829
+    second: Bottles L_21
+  - first:
+      213: -4369602001349624
+    second: Bottles L_22
+  - first:
+      213: 268661458049279055
+    second: Bottles L_23
+  - first:
+      213: -8879868892747642818
+    second: Bottles L_24
+  - first:
+      213: 2297336974307076715
+    second: Bottles L_25
+  - first:
+      213: -5694835468155463863
+    second: Bottles L_26
+  - first:
+      213: -8211669371279940602
+    second: Bottles L_27
+  - first:
+      213: -3155757325450440958
+    second: Bottles L_28
+  - first:
+      213: -8139824800211805333
+    second: Bottles L_29
+  - first:
+      213: -1055481090028292962
+    second: Bottles L_30
+  - first:
+      213: -1342532150750929393
+    second: Bottles L_31
+  - first:
+      213: 6940004994650830947
+    second: Bottles L_32
+  - first:
+      213: 1541564416635203312
+    second: Bottles L_33
+  - first:
+      213: -6580781342057601699
+    second: Bottles L_34
+  - first:
+      213: -1372437020704436596
+    second: Bottles L_35
+  - first:
+      213: -2809260741475997018
+    second: Bottles L_36
+  - first:
+      213: 7487494356619177210
+    second: Bottles L_37
+  - first:
+      213: 7513662040951005689
+    second: Bottles L_38
+  - first:
+      213: -6457578146502760979
+    second: Bottles L_39
+  - first:
+      213: 7304227974874574389
+    second: Bottles L_40
+  - first:
+      213: -3470634924375506512
+    second: Bottles L_41
+  - first:
+      213: -8372675469506526093
+    second: Bottles L_42
+  - first:
+      213: -1121823339964501305
+    second: Bottles L_43
+  - first:
+      213: 7364671893046317381
+    second: Bottles L_44
+  - first:
+      213: -8110657137660441657
+    second: Bottles L_45
+  - first:
+      213: -2437734481435237389
+    second: Bottles L_46
+  - first:
+      213: -5806408646497747549
+    second: Bottles L_47
+  - first:
+      213: -8199659698134996451
+    second: Bottles L_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bottles L_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 866
+        width: 60
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3d6ee0e96b458d0800000000000000
+      internalID: -2858459073502325844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 869
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf2b3948ae262000800000000000000
+      internalID: 10747349433003981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 869
+        width: 61
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376c1f9e8e8550640800000000000000
+      internalID: 5045536714919102067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 872
+        width: 63
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d60c8bafcc5e7d0800000000000000
+      internalID: -2889678208674796223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 863
+        width: 76
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3319d4a25669b45f0800000000000000
+      internalID: -771357549918318285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 864
+        width: 154
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414401d268fe06e50800000000000000
+      internalID: 6800698796890145812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_6
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 865
+        width: 36
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57392de8b02448d50800000000000000
+      internalID: 6738583559861343093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_7
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 877
+        width: 64
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb014d6fb24d7b890800000000000000
+      internalID: -7442246573916680002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_8
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 877
+        width: 66
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b5633ffca6868d0800000000000000
+      internalID: -2852912922568008824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_9
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 878
+        width: 63
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9c44dc6141cef30800000000000000
+      internalID: 4606078607058848184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_10
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 876
+        width: 59
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca610744286718f60800000000000000
+      internalID: 8034833512071698092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 639
+        width: 60
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a3077770a3cc860800000000000000
+      internalID: 7551474478936504863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 640
+        width: 86
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfba579d23fdfbe0800000000000000
+      internalID: -1441728928550305872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 639
+        width: 46
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde032aa5dee82460800000000000000
+      internalID: 7217281004311088861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 638
+        width: 74
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b776bccaff370080800000000000000
+      internalID: -9221331365608917072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 641
+        width: 141
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4de1e49499786bf0800000000000000
+      internalID: -330880893551776435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_16
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 637
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367b29c050012d380800000000000000
+      internalID: -8948071895759931549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_17
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 637
+        width: 102
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525f54b1a08d82a70800000000000000
+      internalID: 8802523009614476581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_18
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 635
+        width: 74
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316ca53fb735142f0800000000000000
+      internalID: -990418651215903213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_19
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 636
+        width: 37
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ad9a35641ba7ac0800000000000000
+      internalID: -3856575215279941091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_20
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 636
+        width: 62
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f072fef526b1fe0d0800000000000000
+      internalID: -3391461885056440561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 266
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb651eb19818b1090800000000000000
+      internalID: -8062708281998485829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_22
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 366
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80456e0ced970fff0800000000000000
+      internalID: -4369602001349624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_23
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 370
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44add33c2a7ab300800000000000000
+      internalID: 268661458049279055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_24
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 374
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e384cb32a4e54c480800000000000000
+      internalID: -8879868892747642818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_25
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 375
+        width: 99
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6aa1fa6ec7c1ef10800000000000000
+      internalID: 2297336974307076715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_26
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 372
+        width: 114
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9475c427051e7f0b0800000000000000
+      internalID: -5694835468155463863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_27
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 372
+        width: 96
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60467efc63a4a0e80800000000000000
+      internalID: -8211669371279940602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_28
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 372
+        width: 73
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f8033be6f7434d0800000000000000
+      internalID: -3155757325450440958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_29
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 175
+        width: 61
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bd5798878890f80800000000000000
+      internalID: -8139824800211805333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 177
+        width: 60
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94b8b17a8d2a51f0800000000000000
+      internalID: -1055481090028292962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 176
+        width: 61
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e13f63f1e5e5de0800000000000000
+      internalID: -1342532150750929393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 177
+        width: 60
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368799dd5c9df4060800000000000000
+      internalID: 6940004994650830947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_33
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 176
+        width: 64
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe6ceb5bacb46510800000000000000
+      internalID: 1541564416635203312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_34
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 175
+        width: 66
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5563226c3e5ca4a0800000000000000
+      internalID: -6580781342057601699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_35
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 176
+        width: 62
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e01581dcf14fce0800000000000000
+      internalID: -1372437020704436596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_36
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 174
+        width: 59
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa6fde5d308309d0800000000000000
+      internalID: -2809260741475997018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_37
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 173
+        width: 60
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc2708627ce8e760800000000000000
+      internalID: 7487494356619177210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_38
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 176
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1a83131d3e54860800000000000000
+      internalID: 7513662040951005689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_39
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 175
+        width: 60
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5a064b3e21266a0800000000000000
+      internalID: -6457578146502760979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_40
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 179
+        width: 62
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eaed8c4a4dd5560800000000000000
+      internalID: 7304227974874574389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_41
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7
+        width: 35
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1888bace3d5dfc0800000000000000
+      internalID: -3470634924375506512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_42
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 6
+        width: 148
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374cf6455084ecb80800000000000000
+      internalID: -8372675469506526093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_43
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 5
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c27ca0bd9b7e60f0800000000000000
+      internalID: -1121823339964501305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_44
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 61
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54154582112943660800000000000000
+      internalID: 7364671893046317381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_45
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 0
+        width: 200
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb43ce2e48217f80800000000000000
+      internalID: -8110657137660441657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_46
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 5
+        width: 72
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3e451a76d6b2ed0800000000000000
+      internalID: -2437734481435237389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_47
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 6
+        width: 45
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adbeb4891e7b6fa0800000000000000
+      internalID: -5806408646497747549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottles L_48
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 6
+        width: 135
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1aa39db2f4f43e80800000000000000
+      internalID: -8199659698134996451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bottles L_0: -2858459073502325844
+      Bottles L_1: 10747349433003981
+      Bottles L_10: 8034833512071698092
+      Bottles L_11: 7551474478936504863
+      Bottles L_12: -1441728928550305872
+      Bottles L_13: 7217281004311088861
+      Bottles L_14: -9221331365608917072
+      Bottles L_15: -330880893551776435
+      Bottles L_16: -8948071895759931549
+      Bottles L_17: 8802523009614476581
+      Bottles L_18: -990418651215903213
+      Bottles L_19: -3856575215279941091
+      Bottles L_2: 5045536714919102067
+      Bottles L_20: -3391461885056440561
+      Bottles L_21: -8062708281998485829
+      Bottles L_22: -4369602001349624
+      Bottles L_23: 268661458049279055
+      Bottles L_24: -8879868892747642818
+      Bottles L_25: 2297336974307076715
+      Bottles L_26: -5694835468155463863
+      Bottles L_27: -8211669371279940602
+      Bottles L_28: -3155757325450440958
+      Bottles L_29: -8139824800211805333
+      Bottles L_3: -2889678208674796223
+      Bottles L_30: -1055481090028292962
+      Bottles L_31: -1342532150750929393
+      Bottles L_32: 6940004994650830947
+      Bottles L_33: 1541564416635203312
+      Bottles L_34: -6580781342057601699
+      Bottles L_35: -1372437020704436596
+      Bottles L_36: -2809260741475997018
+      Bottles L_37: 7487494356619177210
+      Bottles L_38: 7513662040951005689
+      Bottles L_39: -6457578146502760979
+      Bottles L_4: -771357549918318285
+      Bottles L_40: 7304227974874574389
+      Bottles L_41: -3470634924375506512
+      Bottles L_42: -8372675469506526093
+      Bottles L_43: -1121823339964501305
+      Bottles L_44: 7364671893046317381
+      Bottles L_45: -8110657137660441657
+      Bottles L_46: -2437734481435237389
+      Bottles L_47: -5806408646497747549
+      Bottles L_48: -8199659698134996451
+      Bottles L_5: 6800698796890145812
+      Bottles L_6: 6738583559861343093
+      Bottles L_7: -7442246573916680002
+      Bottles L_8: -2852912922568008824
+      Bottles L_9: 4606078607058848184
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
