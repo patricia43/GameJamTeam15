@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2263480911638640550}
   - component: {fileID: 2540059945734795171}
   m_Layer: 0
-  m_Name: Bottle_contur_6_0
+  m_Name: Bottle_contur_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
