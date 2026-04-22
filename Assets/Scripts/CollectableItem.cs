@@ -1,24 +1,27 @@
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
 public class CollectableItem : MonoBehaviour
 {
+    public IngredientData ingredientData;
+
     private void OnMouseDown()
     {
         SpawnDraggableCopy();
     }
 
     void SpawnDraggableCopy()
-    {
-        Vector3 mouseWorld = GetMouseWorldPosition();
+{
+    Vector3 mouseWorld = GetMouseWorldPosition();
 
-        // Clone this object
-        GameObject clone = Instantiate(gameObject, mouseWorld, Quaternion.identity);
-        clone.GetComponent<DraggableItem>().BeginDrag();
+    GameObject clone = Instantiate(gameObject, mouseWorld, Quaternion.identity);
 
-        clone.GetComponent<CollectableItem>().enabled = false;
-        clone.AddComponent<DraggableItem>();
-    }
+    clone.GetComponent<CollectableItem>().enabled = false;
+
+    DraggableItem drag = clone.GetComponent<DraggableItem>();
+
+    drag.SetIngredient(ingredientData);
+    drag.BeginDrag();
+}
 
     Vector3 GetMouseWorldPosition()
     {
