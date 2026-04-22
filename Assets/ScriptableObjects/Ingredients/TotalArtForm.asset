@@ -10,6 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ac55d93e04114a40a5c0fa42332cf1d, type: 3}
-  m_Name: ING_Vodka
+  m_Name: TotalArtForm
   m_EditorClassIdentifier: Assembly-CSharp::IngredientData
-  ingredientName: vodka
+  ingredientName: Total Art Form
+  owner: 0
+  category: 1

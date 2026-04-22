@@ -1,29 +1,62 @@
 using UnityEngine;
 using System.Collections.Generic;
-using System.Linq;
 
 [CreateAssetMenu(menuName = "Bartender/Recipe Database")]
 public class RecipeDatabase : ScriptableObject
 {
-    public List<CocktailRecipe> allRecipes;
+    public List<CocktailRecipe> allTemplates;
 
     public CocktailRecipe FindMatch(List<IngredientData> selected)
     {
-        foreach (var recipe in allRecipes)
+        foreach (var template in allTemplates)
         {
-            if (IngredientsMatch(recipe.requiredIngredients, selected))
-                return recipe;
+            if (MatchesTemplate(template, selected))
+                return template;
         }
 
         return null;
     }
 
-    private bool IngredientsMatch(List<IngredientData> recipe, List<IngredientData> selected)
+    private bool MatchesTemplate(CocktailRecipe template, List<IngredientData> selected)
     {
-        if (recipe.Count != selected.Count)
+        if (selected.Count != template.slots.Count)
             return false;
 
-        return !recipe.Except(selected).Any() &&
-               !selected.Except(recipe).Any();
+        List<IngredientData> remaining = new List<IngredientData>(selected);
+
+        foreach (var slot in template.slots)
+        {
+            bool matched = false;
+
+            for (int i = 0; i < remaining.Count; i++)
+            {
+                var ing = remaining[i];
+
+                if (slot.isFixedIngredient)
+                {
+                    if (ing == slot.fixedIngredient)
+                    {
+                        matched = true;
+                        remaining.RemoveAt(i);
+                        break;
+                    }
+                }
+                else
+                {
+                    if (ing.owner == slot.requiredOwner &&
+                        ing.category == slot.requiredCategory)
+                    {
+                        matched = true;
+                        remaining.RemoveAt(i);
+                        break;
+                    }
+                }
+            }
+
+            if (!matched)
+                return false;
+        }
+
+        return true;
     }
 }

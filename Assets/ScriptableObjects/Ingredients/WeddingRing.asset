@@ -10,6 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ac55d93e04114a40a5c0fa42332cf1d, type: 3}
-  m_Name: ING_OrangeJuice
+  m_Name: WeddingRing
   m_EditorClassIdentifier: Assembly-CSharp::IngredientData
-  ingredientName: orange juice
+  ingredientName: Wedding Ring
+  owner: 1
+  category: 3

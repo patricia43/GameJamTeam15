@@ -10,10 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44ac5d4739709224d81ef2d6f56f4764, type: 3}
-  m_Name: REC_idk
+  m_Name: ForFeelingInadequate
   m_EditorClassIdentifier: Assembly-CSharp::CocktailRecipe
-  cocktailName: idk
-  requiredIngredients:
-  - {fileID: 11400000, guid: bb2c803c64051b343be95e7b1d8fb471, type: 2}
-  - {fileID: 11400000, guid: b9bbeaaa95b86f2489376a6bf2ccc191, type: 2}
-  - {fileID: 11400000, guid: 7f552f60aa21ecd42b5c7dd1c01d01cd, type: 2}
+  cocktailName: For Feeling Inadequate
+  slots: []
