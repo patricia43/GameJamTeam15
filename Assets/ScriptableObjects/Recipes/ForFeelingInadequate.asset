@@ -13,4 +13,16 @@ MonoBehaviour:
   m_Name: ForFeelingInadequate
   m_EditorClassIdentifier: Assembly-CSharp::CocktailRecipe
   cocktailName: For Feeling Inadequate
-  slots: []
+  slots:
+  - isFixedIngredient: 1
+    fixedIngredient: {fileID: 11400000, guid: 0b7f6d2b136e14e41869ef7021eefe98, type: 2}
+    requiredOwner: 0
+    requiredCategory: 0
+  - isFixedIngredient: 1
+    fixedIngredient: {fileID: 11400000, guid: 023f8b854683a0c4baa1767660e3934d, type: 2}
+    requiredOwner: 0
+    requiredCategory: 0
+  - isFixedIngredient: 0
+    fixedIngredient: {fileID: 0}
+    requiredOwner: 1
+    requiredCategory: 1

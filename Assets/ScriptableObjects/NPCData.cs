@@ -9,7 +9,7 @@ public enum NPCState
     Wild,
     Crazy,
     Insane,
-    End
+    Dead
 }
 
 public enum DialogueTrigger
