@@ -42,7 +42,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _FillAmount: 0.5
+    - _FillAmount: 0.702
     - _Tilt: 0
     - _ZWrite: 0
     m_Colors:
