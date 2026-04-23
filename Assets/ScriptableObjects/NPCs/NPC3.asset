@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d586c15f9021cc4eb0a3e1f72412028, type: 3}
+  m_Name: NPC3
+  m_EditorClassIdentifier: Assembly-CSharp::NPCData
+  npcName: NPC3
+  dialogueGroups:
+  - trigger: 0
+    sequences:
+    - lines:
+      - speaker: 0
+        text: Hello there! I would like something soft and fruity, I want to take
+          it easy cause I  want to be able to work climb the ladder at work and I
+          need all the energy and vibe I can get!
+      - speaker: 1
+        text: I've got you ma'am, I'll give have a special mix to make you feel glamourous!
+    - lines:
+      - speaker: 0
+        text: Hi there! You know... I've been thinking... What do you think God looks
+          like?
+      - speaker: 1
+        text: Well i have just the thing to make you meet God!
+  - trigger: 1
+    sequences:
+    - lines:
+      - speaker: 0
+        text: My, my oh, my!
+    - lines:
+      - speaker: 0
+        text: Oh waaw!
+  - trigger: 2
+    sequences:
+    - lines:
+      - speaker: 0
+        text: I think you're my new favourite person!
+      - speaker: 1
+        text: That is flattering, miss!
+    - lines:
+      - speaker: 0
+        text: That was FIREEEEE!
+      - speaker: 1
+        text: Thank you, miss! I will try to keep the firefighters out!
+  - trigger: 3
+    sequences:
+    - lines:
+      - speaker: 0
+        text: ' I swear to God, I do not need any shrink at all, I can just come
+          to you and get medicated and you can fix me, all night long... come on
+          , when does your shift end?'
+      - speaker: 1
+        text: Miss, it's ok... I am glad that you enjoy my services and I did take
+          the liberty to call you a taxi, to take you home safe and sound! Have a
+          great night!
+    - lines:
+      - speaker: 0
+        text: God, I wish everyone would get me like you do.. Yet no one ever will...
+      - speaker: 1
+        text: Miss, I am sure there are plenty of people like me in the outside world.
+          You just have to get out of here and meet them! Have a great night!

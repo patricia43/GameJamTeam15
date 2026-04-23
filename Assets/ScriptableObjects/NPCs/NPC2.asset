@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d586c15f9021cc4eb0a3e1f72412028, type: 3}
+  m_Name: NPC2
+  m_EditorClassIdentifier: Assembly-CSharp::NPCData
+  npcName: NPC2
+  dialogueGroups:
+  - trigger: 0
+    sequences:
+    - lines:
+      - speaker: 0
+        text: Howdy partner! Give me an Old Fashioned cause I can't seem to find
+          my place in the world
+      - speaker: 1
+        text: Oh! I actually have something that will banish that anxious feeling
+          of inadequacy and will better suit your taste, kind sir!
+    - lines:
+      - speaker: 0
+        text: Good Evening! You know what I wanted to do tonight? To just drive away,
+          man, on Long Island to just take in the feeling of emptiness and feel nothing...
+          But I cannot do it yet... I am not empty enough... I... I'm not making
+          any sense, am I?
+      - speaker: 1
+        text: On the contrary! I have the trick shot just to spin the night swiling
+  - trigger: 1
+    sequences:
+    - lines:
+      - speaker: 0
+        text: Ugh, oh,  Goodness gracious!
+    - lines:
+      - speaker: 0
+        text: Ogh Good God!
+  - trigger: 2
+    sequences:
+    - lines:
+      - speaker: 0
+        text: You sure know your recepies young man!
+      - speaker: 1
+        text: It is an honour to serve you, sir!
+    - lines:
+      - speaker: 0
+        text: Experiences shape us and what you sell here, is the ultimate mold!
+      - speaker: 1
+        text: ' I... am not sure how to take in all that.... Thank you, sir!'
+  - trigger: 3
+    sequences:
+    - lines:
+      - speaker: 0
+        text: I believe I can cast voids behind my back.. If I lay down I'll collapse
+          into a new dimmension!
+      - speaker: 1
+        text: It is true some of the ingredients I put there known of inducing sleep.
+          Do call a cab and not drive tho, sir! Have a good night!
+    - lines:
+      - speaker: 0
+        text: I am the infinite! I am the dream prowler! I am the darkness empowered!
+      - speaker: 1
+        text: Sir, I think it is time to bid you a Good Night!

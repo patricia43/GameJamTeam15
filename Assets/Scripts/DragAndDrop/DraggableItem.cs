@@ -1,9 +1,14 @@
-using System;
 using UnityEngine;
 
 public class DraggableItem : MonoBehaviour
 {
+    private IngredientData ingredient;
     private bool isDragging = false;
+
+    public void SetIngredient(IngredientData data)
+    {
+        ingredient = data;
+    }
 
     void Update()
     {
@@ -30,7 +35,14 @@ public class DraggableItem : MonoBehaviour
 
         if (IsOverGlass())
         {
-            Debug.Log("Dropped into glass!");
+            if (ingredient == null)
+            {
+                Debug.LogError("NO INGREDIENT DATA");
+            } else
+            {
+                GlassManager.Instance.AddIngredient(ingredient);
+                // Debug.Log("Dropped: " + ingredient.ingredientName);
+            }
         }
 
         Destroy(gameObject);
@@ -49,7 +61,7 @@ public class DraggableItem : MonoBehaviour
         return false;
     }
 
-    internal void BeginDrag()
+    public void BeginDrag()
     {
         isDragging = true;
     }
