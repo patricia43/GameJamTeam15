@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d586c15f9021cc4eb0a3e1f72412028, type: 3}
+  m_Name: NPC1
+  m_EditorClassIdentifier: Assembly-CSharp::NPCData
+  npcName: NPC1
+  dialogueGroups:
+  - trigger: 0
+    sequences:
+    - lines:
+      - speaker: 0
+        text: 'Heya Darling! Could you hook me up with some delicious, sweet sweet
+          love, by any chance? Like Sex on the Beach vibes.. '
+      - speaker: 1
+        text: So I gather that you have wonder and lust ma'am... I'll fix up something
+          right away
+    - lines:
+      - speaker: 0
+        text: Sweetheart! I'd really like something as soft as a mimosa, to relax,
+          to take it easy cause I have too many things on my plate right now!
+      - speaker: 1
+        text: Right away ma'am! I will materialise clouds in which you could completeley
+          let go of today and watch tomorrow from above!
+  - trigger: 1
+    sequences:
+    - lines:
+      - speaker: 0
+        text: Oh, my Lord!
+    - lines:
+      - speaker: 0
+        text: Oh Dear!
+  - trigger: 2
+    sequences:
+    - lines:
+      - speaker: 0
+        text: Well that was amazing indeed!
+      - speaker: 1
+        text: I am glad you enjoyed that!
+    - lines:
+      - speaker: 0
+        text: That was delicious! Absolutely exquisite!
+      - speaker: 1
+        text: It pleases me most to hear that!
+  - trigger: 3
+    sequences:
+    - lines:
+      - speaker: 0
+        text: I think, I think there's something chaining me into this loop... this
+          script, this life! I need to get out!
+      - speaker: 1
+        text: A fresh breath of air is always recommended in cases like these. Do
+          take care, ma'am! Have a great night!
+    - lines:
+      - speaker: 0
+        text: I will find out everything about this matrix! I will beat the hell
+          out of it!
+      - speaker: 1
+        text: I think it would be wise to go home accompanied by a trusted person
+          or in a cab. Have a good night!
