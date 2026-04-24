@@ -42,6 +42,7 @@ public class DraggableItem : MonoBehaviour
             {
                 GlassManager.Instance.AddIngredient(ingredient);
                 // Debug.Log("Dropped: " + ingredient.ingredientName);
+                TutorialManager.Instance?.NotifyIngredientDropped(ingredient);
             }
         }
 
@@ -64,5 +65,7 @@ public class DraggableItem : MonoBehaviour
     public void BeginDrag()
     {
         isDragging = true;
+
+        TutorialManager.Instance?.NotifyIngredientPicked(ingredient);
     }
 }
