@@ -6,6 +6,8 @@ public class CollectableItem : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (GameManager.Instance.IsGameplayBlocked())
+            return;
         SpawnDraggableCopy();
     }
 

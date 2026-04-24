@@ -12,6 +12,9 @@ public class DraggableItem : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.IsGameplayBlocked())
+            return;
+
         if (!isDragging) return;
 
         FollowMouse();

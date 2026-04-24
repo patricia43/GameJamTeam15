@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44ac5d4739709224d81ef2d6f56f4764, type: 3}
+  m_Name: Lemonade
+  m_EditorClassIdentifier: Assembly-CSharp::CocktailRecipe
+  cocktailName: 
+  slots:
+  - isFixedIngredient: 1
+    fixedIngredient: {fileID: 11400000, guid: b9b6a3afcd84ead4c945ca80ba51248b, type: 2}
+    requiredOwner: 0
+    requiredCategory: 0
+  - isFixedIngredient: 1
+    fixedIngredient: {fileID: 11400000, guid: 919a666b676dad649a4d7c3174ad2373, type: 2}
+    requiredOwner: 0
+    requiredCategory: 0
