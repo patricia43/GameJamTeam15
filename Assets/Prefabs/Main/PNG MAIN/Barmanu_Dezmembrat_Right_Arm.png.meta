@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dd0b74302bd3c88499a1e1a94b7e6e8f
+guid: 8aac8f76ebba7cd42a697ed343d0144b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7791766934485248730
-    second: Barmanu_Dezmembrat_Left_Shoulder_0
+      213: -3695661558866543010
+    second: Barmanu_Dezmembrat_Right_Arm_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barmanu_Dezmembrat_Left_Shoulder_0
+      name: Barmanu_Dezmembrat_Right_Arm_0
       rect:
         serializedVersion: 2
-        x: 81
-        y: 14
-        width: 260
-        height: 410
+        x: 35
+        y: 68
+        width: 351
+        height: 388
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6255f5171451ed390800000000000000
-      internalID: -7791766934485248730
+      spriteID: e5e71b5846f56bcc0800000000000000
+      internalID: -3695661558866543010
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Barmanu_Dezmembrat_Left_Shoulder_0: -7791766934485248730
+      Barmanu_Dezmembrat_Right_Arm_0: -3695661558866543010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

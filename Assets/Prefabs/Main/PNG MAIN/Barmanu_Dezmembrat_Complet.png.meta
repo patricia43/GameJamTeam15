@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 077d417dfe24cb04589398767949d04d
+guid: 36229f4dc331e564d9b4a973c4db4f13
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -134,10 +134,10 @@ TextureImporter:
       name: Barmanu_Dezmembrat_Complet_0
       rect:
         serializedVersion: 2
-        x: 421
-        y: 1263
-        width: 261
-        height: 408
+        x: 736
+        y: 1024
+        width: 544
+        height: 586
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: Barmanu_Dezmembrat_Complet_1
       rect:
         serializedVersion: 2
-        x: 720
-        y: 1024
-        width: 560
-        height: 585
+        x: 879
+        y: 1576
+        width: 260
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: Barmanu_Dezmembrat_Complet_2
       rect:
         serializedVersion: 2
-        x: 879
-        y: 1602
-        width: 259
-        height: 331
+        x: 494
+        y: 960
+        width: 261
+        height: 408
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Barmanu_Dezmembrat_Complet_3
       rect:
         serializedVersion: 2
-        x: 1311
-        y: 1335
+        x: 1253
+        y: 1078
         width: 356
-        height: 285
+        height: 286
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +222,10 @@ TextureImporter:
       name: Barmanu_Dezmembrat_Complet_4
       rect:
         serializedVersion: 2
-        x: 315
-        y: 719
-        width: 169
-        height: 487
+        x: 1572
+        y: 748
+        width: 351
+        height: 388
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Barmanu_Dezmembrat_Complet_5
       rect:
         serializedVersion: 2
-        x: 813
-        y: 14
-        width: 498
-        height: 955
+        x: 476
+        y: 469
+        width: 169
+        height: 487
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: Barmanu_Dezmembrat_Complet_6
       rect:
         serializedVersion: 2
-        x: 1663
-        y: 775
-        width: 352
-        height: 387
+        x: 807
+        y: 67
+        width: 500
+        height: 955
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
