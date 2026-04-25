@@ -88,14 +88,12 @@ public class GameManager : MonoBehaviour
         {
             case GameState.Playing:
                 Time.timeScale = 1f;
-                AudioListener.pause = false;
                 if (pausePanel != null)
                     pausePanel.SetActive(false);
                 break;
 
             case GameState.Paused:
                 Time.timeScale = 0f;
-                AudioListener.pause = true;
                 if (pausePanel != null)
                     pausePanel.SetActive(true);
                 break;
