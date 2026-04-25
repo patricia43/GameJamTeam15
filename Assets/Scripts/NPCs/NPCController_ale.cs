@@ -12,7 +12,7 @@ public class NPCController_ale : MonoBehaviour
     {
         dialogueManager = FindObjectOfType<DialogueManager>();
 
-        EnterBar();
+        // EnterBar();
     }
 
     public void EnterBar()

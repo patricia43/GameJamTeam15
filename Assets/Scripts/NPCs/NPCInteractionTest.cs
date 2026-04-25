@@ -27,9 +27,12 @@ public class NPCInteractionTest : MonoBehaviour
 
     public System.Action<NPCInteractionTest> OnServiceFinished;
 
+    private NPCController_ale npcDialogueController;
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        npcDialogueController = GetComponent<NPCController_ale>();
 
         transform.position = queuePoint.position;
         UpdateVisual();
@@ -47,6 +50,9 @@ public class NPCInteractionTest : MonoBehaviour
         Debug.Log("Taking order.");
         StartCoroutine(MoveTo(barPoint.position));
         serviceState = ServiceState.AtBar;
+
+        // trigger enter dialogue
+        npcDialogueController?.EnterBar();
     }
 
     public void ServeDrink()
@@ -56,6 +62,9 @@ public class NPCInteractionTest : MonoBehaviour
 
         normalDrinkCount++;
         UpdateStateFromNormalDrinks();
+
+        // trigger drinking dialogue
+        npcDialogueController?.ReceiveDrink();
 
         AfterService();
     }
@@ -67,6 +76,9 @@ public class NPCInteractionTest : MonoBehaviour
 
         deliriumCount++;
         UpdateStateFromDelirium();
+
+        // trigger drinking dialogue
+        npcDialogueController?.ReceiveDrink();
 
         AfterService();
     }
@@ -86,6 +98,9 @@ public class NPCInteractionTest : MonoBehaviour
 
     IEnumerator MoveAndDie(Vector3 target)
     {
+        // trigger exit dialogue
+        npcDialogueController?.LeaveBar();
+
         yield return StartCoroutine(MoveTo(target));
 
         SetState(NPCState.Dead);

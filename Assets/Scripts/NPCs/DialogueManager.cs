@@ -19,7 +19,8 @@ public class DialogueManager : MonoBehaviour
 
         dialoguePanel.SetActive(true);
 
-        DisplayNextLine();
+        // DisplayNextLine();
+        DisplayCurrentLine();
     }
 
     void Update()
@@ -32,7 +33,7 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayCurrentLine()
     {
-        if (lines.Count == 0)
+        if (lines.Count == 0 || currentIndex < 0 || currentIndex >= lines.Count)
         {
             EndDialogue();
             return;
