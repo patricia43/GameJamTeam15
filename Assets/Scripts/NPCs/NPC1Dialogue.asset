@@ -19,5 +19,17 @@ MonoBehaviour:
   - NPCName: Barman
     text: 'So I gather that you have wonder and lust ma''am... I''ll fix up something
       right away '
-  drinkDialogue: []
-  exitDialogue: []
+  drinkDialogue:
+  - NPCName: NPC1
+    text: Oh, my Lord!
+  - NPCName: NPC1
+    text: Well that was amazing indeed!
+  - NPCName: Barman
+    text: I am glad you enjoyed that!
+  exitDialogue:
+  - NPCName: NPC1
+    text: I think, I think there's something chaining me into this loop... this script,
+      this life! I need to get out!
+  - NPCName: Barman
+    text: A fresh breath of air is always recommended in cases like these. Do take
+      care, ma'am! Have a great night!
