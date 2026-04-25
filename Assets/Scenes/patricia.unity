@@ -4194,6 +4194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4044854eb38e1274ebb92eb6c240979f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  tutorialManager: {fileID: 40337761}
+  cutsceneDuration: 2
   pausePanel: {fileID: 543971939}
 --- !u!4 &1441218222
 Transform:

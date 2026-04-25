@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44ac5d4739709224d81ef2d6f56f4764, type: 3}
   m_Name: Lemonade
   m_EditorClassIdentifier: Assembly-CSharp::CocktailRecipe
-  cocktailName: 
+  cocktailName: Lemonade
   slots:
   - isFixedIngredient: 1
     fixedIngredient: {fileID: 11400000, guid: b9b6a3afcd84ead4c945ca80ba51248b, type: 2}

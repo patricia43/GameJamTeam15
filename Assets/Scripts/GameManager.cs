@@ -3,14 +3,19 @@ using System;
 
 public enum GameState
 {
+    Cutscene,
+    Tutorial,
     Playing,
     Paused,
-    Tutorial,
     GameOver
 }
 
 public class GameManager : MonoBehaviour
 {
+
+    [SerializeField] private TutorialManager tutorialManager;
+    [SerializeField] private float cutsceneDuration = 2f;
+
     public static GameManager Instance;
 
     public GameState CurrentState { get; private set; }
@@ -34,10 +39,18 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        SetState(GameState.Playing);
+        StartCoroutine(GameStartFlow());
+    }
 
-        if (pausePanel != null)
-            pausePanel.SetActive(false);
+    private System.Collections.IEnumerator GameStartFlow()
+    {
+        SetState(GameState.Cutscene);
+
+        yield return new WaitForSeconds(cutsceneDuration);
+
+        SetState(GameState.Tutorial);
+
+        tutorialManager.BeginTutorial();
     }
 
     private void Update()
@@ -87,8 +100,16 @@ public class GameManager : MonoBehaviour
                     pausePanel.SetActive(true);
                 break;
 
+            case GameState.Cutscene:
+                Time.timeScale = 1f; // animations still run
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                break;
+
             case GameState.Tutorial:
                 Time.timeScale = 1f;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
                 break;
 
             case GameState.GameOver:
@@ -119,6 +140,7 @@ public class GameManager : MonoBehaviour
     public bool IsGameplayBlocked()
     {
         return CurrentState == GameState.Paused ||
-               CurrentState == GameState.GameOver;
+               CurrentState == GameState.GameOver ||
+               CurrentState == GameState.Cutscene;
     }
 }

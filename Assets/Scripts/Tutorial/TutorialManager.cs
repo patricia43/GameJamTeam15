@@ -19,12 +19,7 @@ public class TutorialManager : MonoBehaviour
         Instance = this;
     }
 
-    void Start()
-    {
-        StartTutorial();
-    }
-
-    void StartTutorial()
+    public void BeginTutorial()
     {
         step = 0;
         lemonHighlight.StartFlicker();
@@ -59,6 +54,22 @@ public class TutorialManager : MonoBehaviour
             glassHighlight.StopFlicker();
             step = 4;
             Debug.Log("Tutorial Complete!");
+
+            GameManager.Instance.SetState(GameState.Playing);
         }
+    }
+
+    public bool CanInteractWith(IngredientData ingredient)
+    {
+        if (GameManager.Instance.CurrentState != GameState.Tutorial)
+            return true;
+
+        if (step == 0 && ingredient == lemonIngredient)
+            return true;
+
+        if (step == 2 && ingredient == waterIngredient)
+            return true;
+
+        return false;
     }
 }

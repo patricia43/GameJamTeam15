@@ -7,23 +7,27 @@ public class CollectableItem : MonoBehaviour
     private void OnMouseDown()
     {
         if (GameManager.Instance.IsGameplayBlocked())
-            return;
+        {
+            if (!TutorialManager.Instance.CanInteractWith(ingredientData))
+                return;
+        }
+
         SpawnDraggableCopy();
     }
 
     void SpawnDraggableCopy()
-{
-    Vector3 mouseWorld = GetMouseWorldPosition();
+    {
+        Vector3 mouseWorld = GetMouseWorldPosition();
 
-    GameObject clone = Instantiate(gameObject, mouseWorld, Quaternion.identity);
+        GameObject clone = Instantiate(gameObject, mouseWorld, Quaternion.identity);
 
-    clone.GetComponent<CollectableItem>().enabled = false;
+        clone.GetComponent<CollectableItem>().enabled = false;
 
-    DraggableItem drag = clone.GetComponent<DraggableItem>();
+        DraggableItem drag = clone.GetComponent<DraggableItem>();
 
-    drag.SetIngredient(ingredientData);
-    drag.BeginDrag();
-}
+        drag.SetIngredient(ingredientData);
+        drag.BeginDrag();
+    }
 
     Vector3 GetMouseWorldPosition()
     {
