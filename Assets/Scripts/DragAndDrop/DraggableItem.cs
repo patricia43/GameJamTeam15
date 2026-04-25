@@ -44,7 +44,11 @@ public class DraggableItem : MonoBehaviour
         float tilt_angle = Vector3.Dot(displacement, transform.right)/Time.deltaTime;
         float target_tilt = Mathf.Clamp(tilt_angle*sensitivity,-1,1);
         Current_tilt = Mathf.Lerp(Current_tilt, target_tilt, Time.deltaTime * smoothing);
-        Liquid_renderer.material.SetFloat("_Tilt", Current_tilt); 
+        
+        if (Liquid_renderer != null)
+        {
+            Liquid_renderer.material.SetFloat("_Tilt", Current_tilt); 
+        }
 
         Last_position = transform.position;
 
