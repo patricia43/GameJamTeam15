@@ -410,6 +410,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13cc36b39715c074cb9c96dedef6f159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  dialogueText: {fileID: 828891221}
+  dialoguePanel: {fileID: 1693415286}
 --- !u!4 &245895136
 Transform:
   m_ObjectHideFlags: 0

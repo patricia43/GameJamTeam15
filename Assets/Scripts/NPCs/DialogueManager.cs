@@ -5,21 +5,32 @@ using System.Collections.Generic;
 
 public class DialogueManager : MonoBehaviour
 {
-    private Queue<DialogueLines> lines = new Queue<DialogueLines>();
+    public TextMeshProUGUI dialogueText;
+    public GameObject dialoguePanel;
+
+    private List<DialogueLines> lines = new List<DialogueLines>();
+    private int currentIndex = 0;
     
     public void StartDialogue(DialogueLines[] dialogueLines)
     {
         lines.Clear();
+        lines.AddRange(dialogueLines);
+        currentIndex = 0;
 
-        foreach (DialogueLines line in dialogueLines)
-        {
-            lines.Enqueue(line);
-        }
+        dialoguePanel.SetActive(true);
 
         DisplayNextLine();
     }
 
-    public void DisplayNextLine()
+    void Update()
+    {
+        if (lines.Count > 0 && Input.GetKeyDown(KeyCode.Space))
+        {
+            DisplayNextLine();
+        }
+    }
+
+    public void DisplayCurrentLine()
     {
         if (lines.Count == 0)
         {
@@ -27,13 +38,23 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        DialogueLines line = lines.Dequeue();
+        DialogueLines line = lines[currentIndex];
 
-        Debug.Log(line.NPCName + ": " + line.text);
+        dialogueText.text = line.NPCName + ": " + line.text;
+
+        //Debug.Log(line.NPCName + ": " + line.text);
+    }
+
+    public void DisplayNextLine()
+    {
+        currentIndex++;
+        DisplayCurrentLine();
     }
 
     private void EndDialogue()
     {
-        Debug.Log("Dialgoue ended");
+        //Debug.Log("Dialgoue ended");
+        dialoguePanel.SetActive(false);
+        lines.Clear();
     }
 }
