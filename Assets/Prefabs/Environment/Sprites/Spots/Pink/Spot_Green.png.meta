@@ -1,0 +1,1794 @@
+fileFormatVersion: 2
+guid: 8eb3657059177254aad7aea0d5a167bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7224800117239555569
+    second: Spot_Green_0
+  - first:
+      213: -5224146618377987110
+    second: Spot_Green_1
+  - first:
+      213: -3791120227828742815
+    second: Spot_Green_2
+  - first:
+      213: 6302217516750851115
+    second: Spot_Green_3
+  - first:
+      213: -1620203232741646699
+    second: Spot_Green_4
+  - first:
+      213: -6552406642744362324
+    second: Spot_Green_5
+  - first:
+      213: -3084957199739735812
+    second: Spot_Green_6
+  - first:
+      213: -9022670477284956587
+    second: Spot_Green_7
+  - first:
+      213: 823678591485821244
+    second: Spot_Green_8
+  - first:
+      213: 8624990234703337273
+    second: Spot_Green_9
+  - first:
+      213: -6016398226289934142
+    second: Spot_Green_10
+  - first:
+      213: 7445174131339416097
+    second: Spot_Green_11
+  - first:
+      213: 2748887072687437617
+    second: Spot_Green_12
+  - first:
+      213: -2237763143489205985
+    second: Spot_Green_13
+  - first:
+      213: 2298285135295969257
+    second: Spot_Green_14
+  - first:
+      213: 753461311719703944
+    second: Spot_Green_15
+  - first:
+      213: 2431130828722188805
+    second: Spot_Green_16
+  - first:
+      213: 4307071403135193150
+    second: Spot_Green_17
+  - first:
+      213: -6448217964452229839
+    second: Spot_Green_18
+  - first:
+      213: 9042248441648682607
+    second: Spot_Green_19
+  - first:
+      213: 7954638574839370208
+    second: Spot_Green_20
+  - first:
+      213: 4458604523827685646
+    second: Spot_Green_21
+  - first:
+      213: -2785635027527200993
+    second: Spot_Green_22
+  - first:
+      213: 4601422251785469120
+    second: Spot_Green_23
+  - first:
+      213: 7197441200217942941
+    second: Spot_Green_24
+  - first:
+      213: -3744289086633498754
+    second: Spot_Green_25
+  - first:
+      213: 2288473598602094588
+    second: Spot_Green_26
+  - first:
+      213: -3253698516479081952
+    second: Spot_Green_27
+  - first:
+      213: -4988463715167193011
+    second: Spot_Green_28
+  - first:
+      213: 1939066800958357140
+    second: Spot_Green_29
+  - first:
+      213: -3472941624048260221
+    second: Spot_Green_30
+  - first:
+      213: -371515769543606724
+    second: Spot_Green_31
+  - first:
+      213: -7978292417397830901
+    second: Spot_Green_32
+  - first:
+      213: 1071747370859874982
+    second: Spot_Green_33
+  - first:
+      213: -2669835659574877780
+    second: Spot_Green_34
+  - first:
+      213: 6232889578005345491
+    second: Spot_Green_35
+  - first:
+      213: 6207921474468346293
+    second: Spot_Green_36
+  - first:
+      213: -2943080728956979433
+    second: Spot_Green_37
+  - first:
+      213: 3692812026650271592
+    second: Spot_Green_38
+  - first:
+      213: -7866900296434439207
+    second: Spot_Green_39
+  - first:
+      213: -6518654416025366700
+    second: Spot_Green_40
+  - first:
+      213: -1632455152807170898
+    second: Spot_Green_41
+  - first:
+      213: 4230986176696775719
+    second: Spot_Green_42
+  - first:
+      213: -3469439165988046406
+    second: Spot_Green_43
+  - first:
+      213: -4218355904573757411
+    second: Spot_Green_44
+  - first:
+      213: -466415713842508831
+    second: Spot_Green_45
+  - first:
+      213: -1914422057555433757
+    second: Spot_Green_46
+  - first:
+      213: 7873587033829973662
+    second: Spot_Green_47
+  - first:
+      213: -780803259570870239
+    second: Spot_Green_48
+  - first:
+      213: 2754684454892295660
+    second: Spot_Green_49
+  - first:
+      213: -6338259520061712251
+    second: Spot_Green_50
+  - first:
+      213: -5732121624114090804
+    second: Spot_Green_51
+  - first:
+      213: 611987845878600721
+    second: Spot_Green_52
+  - first:
+      213: 2151326614200367738
+    second: Spot_Green_53
+  - first:
+      213: 1424605298078849083
+    second: Spot_Green_54
+  - first:
+      213: 7692365913412812755
+    second: Spot_Green_55
+  - first:
+      213: 4842987629204909247
+    second: Spot_Green_56
+  - first:
+      213: -4701792125713484171
+    second: Spot_Green_57
+  - first:
+      213: -76158343355923752
+    second: Spot_Green_58
+  - first:
+      213: 3784628746323126585
+    second: Spot_Green_59
+  - first:
+      213: 6073475607866235084
+    second: Spot_Green_60
+  - first:
+      213: -1730268748052231703
+    second: Spot_Green_61
+  - first:
+      213: -8755725628700079180
+    second: Spot_Green_62
+  - first:
+      213: 3382034385166383719
+    second: Spot_Green_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spot_Green_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 2256
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a5cbe629a5cbb90800000000000000
+      internalID: -7224800117239555569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_1
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 445
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb950d445a1087b0800000000000000
+      internalID: -5224146618377987110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_2
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 424
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165487f2d3c336bc0800000000000000
+      internalID: -3791120227828742815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_3
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 443
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ccd2fd079f57750800000000000000
+      internalID: 6302217516750851115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_4
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 449
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e9e787eb1e389e0800000000000000
+      internalID: -1620203232741646699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_5
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 436
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caaff43efdc2115a0800000000000000
+      internalID: -6552406642744362324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_6
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 441
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0ba3a85c70035d0800000000000000
+      internalID: -3084957199739735812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_7
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 441
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556a60c410909c280800000000000000
+      internalID: -9022670477284956587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_8
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 446
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c314b9e905b4e6b00800000000000000
+      internalID: 823678591485821244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_9
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 440
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93794badbee12b770800000000000000
+      internalID: 8624990234703337273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_10
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 449
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0c2be70b5718ca0800000000000000
+      internalID: -6016398226289934142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_11
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 437
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122d96d1d62925760800000000000000
+      internalID: 7445174131339416097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 424
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137b2377a32062620800000000000000
+      internalID: 2748887072687437617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_13
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 436
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f194dd4f64ed1f0e0800000000000000
+      internalID: -2237763143489205985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_14
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 425
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e770e9572625ef10800000000000000
+      internalID: 2298285135295969257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_15
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 432
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8858d0d2215d47a00800000000000000
+      internalID: 753461311719703944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_16
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 423
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502bc78ab9c1db120800000000000000
+      internalID: 2431130828722188805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_17
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 435
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30dd1e0f9ac5cb30800000000000000
+      internalID: 4307071403135193150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_18
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 435
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d488aece35386a0800000000000000
+      internalID: -6448217964452229839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 351
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f669c4fbc058c7d70800000000000000
+      internalID: 9042248441648682607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_20
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 316
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e19be963ad846e60800000000000000
+      internalID: 7954638574839370208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 307
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09e2b4113520ed30800000000000000
+      internalID: 4458604523827685646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 316
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f0b5e83bf6759d0800000000000000
+      internalID: -2785635027527200993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 287
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc304b98298bdf30800000000000000
+      internalID: 4601422251785469120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 301
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b60ce43a272e360800000000000000
+      internalID: 7197441200217942941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 305
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77a6dee9ec990cc0800000000000000
+      internalID: -3744289086633498754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_26
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 283
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7a982fc9a42cf10800000000000000
+      internalID: 2288473598602094588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_27
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 289
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0228c07207a88d2d0800000000000000
+      internalID: -3253698516479081952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 272
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48b88a5eaa65cab0800000000000000
+      internalID: -4988463715167193011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 262
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e30ea5bf2f8ea10800000000000000
+      internalID: 1939066800958357140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 270
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b6fec4ef1adcfc0800000000000000
+      internalID: -3472941624048260221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 263
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3eb5ef306c18daf0800000000000000
+      internalID: -371515769543606724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_32
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 253
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b4fc23159674190800000000000000
+      internalID: -7978292417397830901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 248
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aacf013e8c9fde00800000000000000
+      internalID: 1071747370859874982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_34
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 235
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca16e5eec96d2fad0800000000000000
+      internalID: -2669835659574877780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_35
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 241
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d43e354c0caf7650800000000000000
+      internalID: 6232889578005345491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b97437a0b7f62650800000000000000
+      internalID: 6207921474468346293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_37
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 237
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717b83d8ba31827d0800000000000000
+      internalID: -2943080728956979433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_38
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 235
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f97ce09f08f3330800000000000000
+      internalID: 3692812026650271592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_39
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 217
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db2c9b6cd723d290800000000000000
+      internalID: -7866900296434439207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 225
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fc64f88561985a0800000000000000
+      internalID: -6518654416025366700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_41
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 229
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac2c2900ba5859e0800000000000000
+      internalID: -1632455152807170898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_42
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 214
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724799fc28b77ba30800000000000000
+      internalID: 4230986176696775719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_43
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 200
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9747dd5731adfc0800000000000000
+      internalID: -3469439165988046406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 211
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18a5b397a36575c0800000000000000
+      internalID: -4218355904573757411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_45
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 207
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebc1c22165f689f0800000000000000
+      internalID: -466415713842508831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_46
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 200
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e66c3d184b9e65e0800000000000000
+      internalID: -1914422057555433757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_47
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 174
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e9e83f0b9944d60800000000000000
+      internalID: 7873587033829973662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128afc182970a25f0800000000000000
+      internalID: -780803259570870239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_49
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 188
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce55522baea9a3620800000000000000
+      internalID: 2754684454892295660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_50
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 187
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588db7c4c8af908a0800000000000000
+      internalID: -6338259520061712251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_51
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 183
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc2851c0c96370b0800000000000000
+      internalID: -5732121624114090804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_52
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 175
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114537014b73e7800800000000000000
+      internalID: 611987845878600721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_53
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 166
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ab14b482c0bdd10800000000000000
+      internalID: 2151326614200367738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_54
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 174
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38112188f635c310800000000000000
+      internalID: 1424605298078849083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_55
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 155
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df3b47da06c0ca60800000000000000
+      internalID: 7692365913412812755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_56
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 149
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcae5ae69fb53340800000000000000
+      internalID: 4842987629204909247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_57
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 157
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5767e1b09f0efbeb0800000000000000
+      internalID: -4701792125713484171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 141
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d28695e36e61fef0800000000000000
+      internalID: -76158343355923752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_59
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 110
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939625ffac3b58430800000000000000
+      internalID: 3784628746323126585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_60
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 0
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8dddef2e1594450800000000000000
+      internalID: 6073475607866235084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_61
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e90362bdb9dcf7e0800000000000000
+      internalID: -1730268748052231703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_62
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb4c863ee96d7680800000000000000
+      internalID: -8755725628700079180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Green_63
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 0
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76abff1ca566fee20800000000000000
+      internalID: 3382034385166383719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spot_Green_0: -7224800117239555569
+      Spot_Green_1: -5224146618377987110
+      Spot_Green_10: -6016398226289934142
+      Spot_Green_11: 7445174131339416097
+      Spot_Green_12: 2748887072687437617
+      Spot_Green_13: -2237763143489205985
+      Spot_Green_14: 2298285135295969257
+      Spot_Green_15: 753461311719703944
+      Spot_Green_16: 2431130828722188805
+      Spot_Green_17: 4307071403135193150
+      Spot_Green_18: -6448217964452229839
+      Spot_Green_19: 9042248441648682607
+      Spot_Green_2: -3791120227828742815
+      Spot_Green_20: 7954638574839370208
+      Spot_Green_21: 4458604523827685646
+      Spot_Green_22: -2785635027527200993
+      Spot_Green_23: 4601422251785469120
+      Spot_Green_24: 7197441200217942941
+      Spot_Green_25: -3744289086633498754
+      Spot_Green_26: 2288473598602094588
+      Spot_Green_27: -3253698516479081952
+      Spot_Green_28: -4988463715167193011
+      Spot_Green_29: 1939066800958357140
+      Spot_Green_3: 6302217516750851115
+      Spot_Green_30: -3472941624048260221
+      Spot_Green_31: -371515769543606724
+      Spot_Green_32: -7978292417397830901
+      Spot_Green_33: 1071747370859874982
+      Spot_Green_34: -2669835659574877780
+      Spot_Green_35: 6232889578005345491
+      Spot_Green_36: 6207921474468346293
+      Spot_Green_37: -2943080728956979433
+      Spot_Green_38: 3692812026650271592
+      Spot_Green_39: -7866900296434439207
+      Spot_Green_4: -1620203232741646699
+      Spot_Green_40: -6518654416025366700
+      Spot_Green_41: -1632455152807170898
+      Spot_Green_42: 4230986176696775719
+      Spot_Green_43: -3469439165988046406
+      Spot_Green_44: -4218355904573757411
+      Spot_Green_45: -466415713842508831
+      Spot_Green_46: -1914422057555433757
+      Spot_Green_47: 7873587033829973662
+      Spot_Green_48: -780803259570870239
+      Spot_Green_49: 2754684454892295660
+      Spot_Green_5: -6552406642744362324
+      Spot_Green_50: -6338259520061712251
+      Spot_Green_51: -5732121624114090804
+      Spot_Green_52: 611987845878600721
+      Spot_Green_53: 2151326614200367738
+      Spot_Green_54: 1424605298078849083
+      Spot_Green_55: 7692365913412812755
+      Spot_Green_56: 4842987629204909247
+      Spot_Green_57: -4701792125713484171
+      Spot_Green_58: -76158343355923752
+      Spot_Green_59: 3784628746323126585
+      Spot_Green_6: -3084957199739735812
+      Spot_Green_60: 6073475607866235084
+      Spot_Green_61: -1730268748052231703
+      Spot_Green_62: -8755725628700079180
+      Spot_Green_63: 3382034385166383719
+      Spot_Green_7: -9022670477284956587
+      Spot_Green_8: 823678591485821244
+      Spot_Green_9: 8624990234703337273
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
