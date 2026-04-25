@@ -76,11 +76,11 @@ public class AudioManager : MonoBehaviour
     {
         if (debugClip == null)
         {
-            // Debug.LogWarning("No debug clip assigned in AudioManager.");
+            Debug.LogWarning("No debug clip assigned in AudioManager.");
             return;
         }
 
-        // Debug.Log("Playing debug sound (P pressed)");
+        Debug.Log("Playing debug sound (P pressed)");
 
         PlaySound(debugClip, transform, 1f);
     }
