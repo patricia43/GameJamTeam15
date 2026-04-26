@@ -4,6 +4,12 @@ public class DraggableItem : MonoBehaviour
 {
     private IngredientData ingredient;
     private bool isDragging = false;
+    public Renderer Liquid_renderer;
+    public float sensitivity;
+    public float smoothing;
+
+    private Vector3 Last_position;
+    private float Current_tilt;
 
     public void SetIngredient(IngredientData data)
     {
@@ -30,6 +36,23 @@ public class DraggableItem : MonoBehaviour
         Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         pos.z = 0f;
         transform.position = pos;
+        
+        Vector3 displacement = transform.position - Last_position;
+        float speed = displacement.magnitude/Time.deltaTime;
+       
+        Vector3 direction = displacement.normalized;
+        float tilt_angle = Vector3.Dot(displacement, transform.right)/Time.deltaTime;
+        float target_tilt = Mathf.Clamp(tilt_angle*sensitivity,-1,1);
+        Current_tilt = Mathf.Lerp(Current_tilt, target_tilt, Time.deltaTime * smoothing);
+        
+        if (Liquid_renderer != null)
+        {
+            Liquid_renderer.material.SetFloat("_Tilt", Current_tilt); 
+        }
+
+        Last_position = transform.position;
+
+        print(displacement);
     }
 
     void Release()

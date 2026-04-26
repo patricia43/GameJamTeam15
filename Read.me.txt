@@ -9,14 +9,22 @@ Created Sorting Layers as follows
     - Foreground (FG)
 
 To do:
-- Create character placeholders on high LOD 
+[DONE]- Create character placeholders on high LOD 
 (4096px x 2160px canvass)
+[]- UI buttons and animations
+[WORK IN PROGRESS]- Prop Art
+[]- The shader for the bottle props
 
-- Create final asset list with the artists
-- Attribute a sorting layer on each item on the list
+[]- Create a list of VFX 
+[]- Create a list of SFX
+[WORK IN PROGRESS]- Create a looping music playlist
 
-- Create the narrative progression
-- Create the short NPC interaction (the ideea before the scripts)
+[]- Create final asset list with the artists
+[]- Attribute a sorting layer on each item on the list
 
-- Create a list of VFX 
-- Create a list of SFX
+[WORK IN PROGRESS]- Create the dialogue text
+[DONE]- Create the Ingredient list
+[DONE]- Create the Recipe list
+[WORK IN PROGRESS]- Drag and drop interaction
+[WORK IN PROGRESS]- NPC tracking System (FSM)
+[WORK IN PROGRESS]- All NPC Tracking interaction

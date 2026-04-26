@@ -1,0 +1,2184 @@
+fileFormatVersion: 2
+guid: 029ca4b908ba5f145ba0edff729ff0cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 438735861303295878
+    second: Spot_Yellow_0
+  - first:
+      213: -5443194132131645880
+    second: Spot_Yellow_1
+  - first:
+      213: 4175508278913135645
+    second: Spot_Yellow_2
+  - first:
+      213: -6646878457282506537
+    second: Spot_Yellow_3
+  - first:
+      213: -4500593416182665422
+    second: Spot_Yellow_4
+  - first:
+      213: -7085628027018353101
+    second: Spot_Yellow_5
+  - first:
+      213: -3540968202885752445
+    second: Spot_Yellow_6
+  - first:
+      213: 3882280209767736841
+    second: Spot_Yellow_7
+  - first:
+      213: 3647483212873168610
+    second: Spot_Yellow_8
+  - first:
+      213: -3203988972086280220
+    second: Spot_Yellow_9
+  - first:
+      213: 8456480225900775845
+    second: Spot_Yellow_10
+  - first:
+      213: -4782124706547278928
+    second: Spot_Yellow_11
+  - first:
+      213: -6224723852034855844
+    second: Spot_Yellow_12
+  - first:
+      213: -3489204852086241182
+    second: Spot_Yellow_13
+  - first:
+      213: 7195207782289096165
+    second: Spot_Yellow_14
+  - first:
+      213: -2369672644302833975
+    second: Spot_Yellow_15
+  - first:
+      213: -3231981376331805643
+    second: Spot_Yellow_16
+  - first:
+      213: 4237558349835160666
+    second: Spot_Yellow_17
+  - first:
+      213: -2010025599399484062
+    second: Spot_Yellow_18
+  - first:
+      213: -9162506368787784328
+    second: Spot_Yellow_19
+  - first:
+      213: -5371279486785280513
+    second: Spot_Yellow_20
+  - first:
+      213: 3267091336128787391
+    second: Spot_Yellow_21
+  - first:
+      213: -1969915909241819927
+    second: Spot_Yellow_22
+  - first:
+      213: 3075252699912748496
+    second: Spot_Yellow_23
+  - first:
+      213: 1081975091512027788
+    second: Spot_Yellow_24
+  - first:
+      213: 7836463810654445337
+    second: Spot_Yellow_25
+  - first:
+      213: -7543418974976823900
+    second: Spot_Yellow_26
+  - first:
+      213: -5714077077813506017
+    second: Spot_Yellow_27
+  - first:
+      213: 5461174032242367440
+    second: Spot_Yellow_28
+  - first:
+      213: 3782472920068966475
+    second: Spot_Yellow_29
+  - first:
+      213: -8463783501679910638
+    second: Spot_Yellow_30
+  - first:
+      213: -9052032977801252690
+    second: Spot_Yellow_31
+  - first:
+      213: 1844230417723256223
+    second: Spot_Yellow_32
+  - first:
+      213: -7533686726009746214
+    second: Spot_Yellow_33
+  - first:
+      213: 4451107882090608117
+    second: Spot_Yellow_34
+  - first:
+      213: 8023206115423896839
+    second: Spot_Yellow_35
+  - first:
+      213: -3503398677869166171
+    second: Spot_Yellow_36
+  - first:
+      213: -5064617051965091514
+    second: Spot_Yellow_37
+  - first:
+      213: -7817105293635865999
+    second: Spot_Yellow_38
+  - first:
+      213: -6345976130832088297
+    second: Spot_Yellow_39
+  - first:
+      213: 8880806633199669392
+    second: Spot_Yellow_40
+  - first:
+      213: 7888905304954424322
+    second: Spot_Yellow_41
+  - first:
+      213: 8671663145695824876
+    second: Spot_Yellow_42
+  - first:
+      213: -6608305903470568297
+    second: Spot_Yellow_43
+  - first:
+      213: -3810686002397034596
+    second: Spot_Yellow_44
+  - first:
+      213: -5837045842484390303
+    second: Spot_Yellow_45
+  - first:
+      213: 7896802343922112930
+    second: Spot_Yellow_46
+  - first:
+      213: -3194801752197131939
+    second: Spot_Yellow_47
+  - first:
+      213: -2977495723865618003
+    second: Spot_Yellow_48
+  - first:
+      213: -1367499034955459240
+    second: Spot_Yellow_49
+  - first:
+      213: -1025466841610776692
+    second: Spot_Yellow_50
+  - first:
+      213: -8764384677539729529
+    second: Spot_Yellow_51
+  - first:
+      213: -178365274410705188
+    second: Spot_Yellow_52
+  - first:
+      213: 4321919590832785756
+    second: Spot_Yellow_53
+  - first:
+      213: 583488974806152075
+    second: Spot_Yellow_54
+  - first:
+      213: -9084428035100512580
+    second: Spot_Yellow_55
+  - first:
+      213: -7349071254265657788
+    second: Spot_Yellow_56
+  - first:
+      213: -3827599135814566795
+    second: Spot_Yellow_57
+  - first:
+      213: 4753422005992415456
+    second: Spot_Yellow_58
+  - first:
+      213: -3866274298207629121
+    second: Spot_Yellow_59
+  - first:
+      213: 7871738073519288157
+    second: Spot_Yellow_60
+  - first:
+      213: -5310517446333944811
+    second: Spot_Yellow_61
+  - first:
+      213: 4102494981615418987
+    second: Spot_Yellow_62
+  - first:
+      213: -3392898354066490684
+    second: Spot_Yellow_63
+  - first:
+      213: -9078830543909736859
+    second: Spot_Yellow_64
+  - first:
+      213: 3549653914282111320
+    second: Spot_Yellow_65
+  - first:
+      213: 5649638267424414708
+    second: Spot_Yellow_66
+  - first:
+      213: 6762844901075133742
+    second: Spot_Yellow_67
+  - first:
+      213: 962356271918993911
+    second: Spot_Yellow_68
+  - first:
+      213: -1521684482602804816
+    second: Spot_Yellow_69
+  - first:
+      213: 5457565566030200801
+    second: Spot_Yellow_70
+  - first:
+      213: 1257394636228303750
+    second: Spot_Yellow_71
+  - first:
+      213: -922248122140580177
+    second: Spot_Yellow_72
+  - first:
+      213: 5825650053391920454
+    second: Spot_Yellow_73
+  - first:
+      213: -8677965412742555549
+    second: Spot_Yellow_74
+  - first:
+      213: 7872604476437250072
+    second: Spot_Yellow_75
+  - first:
+      213: 345807918194570677
+    second: Spot_Yellow_76
+  - first:
+      213: -7236544223702388099
+    second: Spot_Yellow_77
+  - first:
+      213: 2889917858550955176
+    second: Spot_Yellow_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spot_Yellow_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 2317
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f353bf0f3b61600800000000000000
+      internalID: 438735861303295878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 460
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8467dcea6c3e574b0800000000000000
+      internalID: -5443194132131645880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_2
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 456
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14f15928a262f930800000000000000
+      internalID: 4175508278913135645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_3
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 467
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0da70824b81c3a0800000000000000
+      internalID: -6646878457282506537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_4
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 460
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f68f5122eaa81c0800000000000000
+      internalID: -4500593416182665422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_5
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 459
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336e407c9dacaad90800000000000000
+      internalID: -7085628027018353101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 393
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3899a0a2e24fbdec0800000000000000
+      internalID: -3540968202885752445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 375
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9062cb51841a0e530800000000000000
+      internalID: 3882280209767736841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 366
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6718b28a67e9230800000000000000
+      internalID: 3647483212873168610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 340
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef378e51052983d0800000000000000
+      internalID: -3203988972086280220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 357
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a94eea06f37b5570800000000000000
+      internalID: 8456480225900775845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 336
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb51aa8aea72adb0800000000000000
+      internalID: -4782124706547278928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 339
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5caf86f2a65d99a0800000000000000
+      internalID: -6224723852034855844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 326
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26884d27caad39fc0800000000000000
+      internalID: -3489204852086241182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 322
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edb77c2b538ad360800000000000000
+      internalID: 7195207782289096165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 324
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c67e5af84b3d1fd0800000000000000
+      internalID: -2369672644302833975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_16
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 327
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c801fdf02b523d0800000000000000
+      internalID: -3231981376331805643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_17
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 326
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c4aec1ed4deca30800000000000000
+      internalID: 4237558349835160666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 317
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2652a5eed54fa14e0800000000000000
+      internalID: -2010025599399484062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 318
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d562ca00d38d080800000000000000
+      internalID: -9162506368787784328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 305
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff522d8d3c16575b0800000000000000
+      internalID: -5371279486785280513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_21
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 313
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb376baa24a075d20800000000000000
+      internalID: 3267091336128787391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_22
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 307
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec2048eae379a4e0800000000000000
+      internalID: -1969915909241819927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 304
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd3cd4890e7daa20800000000000000
+      internalID: 3075252699912748496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_24
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 296
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a2569fc92f30f00800000000000000
+      internalID: 1081975091512027788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_25
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 303
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f13410156b0cc60800000000000000
+      internalID: 7836463810654445337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 293
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ada094b864605790800000000000000
+      internalID: -7543418974976823900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 292
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1059b51c2583b0b0800000000000000
+      internalID: -5714077077813506017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_28
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 295
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbd46809dcf9cb40800000000000000
+      internalID: 5461174032242367440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_29
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 298
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48ce35941b0e7430800000000000000
+      internalID: 3782472920068966475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_30
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 280
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211ae8e8fb99a8a80800000000000000
+      internalID: -8463783501679910638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_31
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 291
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0f80767f7b06280800000000000000
+      internalID: -9052032977801252690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_32
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 285
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d6d543bc5089910800000000000000
+      internalID: 1844230417723256223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_33
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 281
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc0d1f76d7f27790800000000000000
+      internalID: -7533686726009746214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 280
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5b3f8290385cd30800000000000000
+      internalID: 4451107882090608117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 276
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70545950477285f60800000000000000
+      internalID: 8023206115423896839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_36
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 284
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1090bd67d616fc0800000000000000
+      internalID: -3503398677869166171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_37
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 264
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6411c3eef9dd6b9b0800000000000000
+      internalID: -5064617051965091514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 252
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1723209f620148390800000000000000
+      internalID: -7817105293635865999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_39
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 255
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71345a8d4509ee7a0800000000000000
+      internalID: -6345976130832088297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_40
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 251
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0909cc29496fe3b70800000000000000
+      internalID: 8880806633199669392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_41
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 252
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cc080e3950b7d60800000000000000
+      internalID: 7888905304954424322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 247
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebcb03cfafe75870800000000000000
+      internalID: 8671663145695824876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_43
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 237
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c15880bc49a44a0800000000000000
+      internalID: -6608305903470568297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_44
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 248
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97429c4549bd1bc0800000000000000
+      internalID: -3810686002397034596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_45
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 251
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1661c057bb5aefea0800000000000000
+      internalID: -5837045842484390303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 235
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a913fa84e3179d60800000000000000
+      internalID: 7896802343922112930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_47
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 241
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d519e70bbb8c9a3d0800000000000000
+      internalID: -3194801752197131939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_48
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 240
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9ceb22a6fcda6d0800000000000000
+      internalID: -2977495723865618003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 229
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8555ace7fdaa50de0800000000000000
+      internalID: -1367499034955459240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 231
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f09d8375fc4c1f0800000000000000
+      internalID: -1025466841610776692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_51
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 226
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f2e5c4296ae5680800000000000000
+      internalID: -8764384677539729529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_52
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 217
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde1c7a5ab1568df0800000000000000
+      internalID: -178365274410705188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_53
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 223
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59c36728fa8afb30800000000000000
+      internalID: 4321919590832785756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_54
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 214
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b837da19128f81800800000000000000
+      internalID: 583488974806152075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_55
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 214
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbeeb3c55d0ade180800000000000000
+      internalID: -9084428035100512580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_56
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446067c91aad20a90800000000000000
+      internalID: -7349071254265657788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_57
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 207
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c3e2f8dd2a1eac0800000000000000
+      internalID: -3827599135814566795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_58
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 209
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0e3b6312c87f140800000000000000
+      internalID: 4753422005992415456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_59
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 196
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb09c1b920c385ac0800000000000000
+      internalID: -3866274298207629121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_60
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 201
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fe80552180e3d60800000000000000
+      internalID: 7871738073519288157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_61
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 192
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c20c5d4804d46b0800000000000000
+      internalID: -5310517446333944811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_62
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 191
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e7208237dfee830800000000000000
+      internalID: 4102494981615418987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_63
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 175
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cafbde5ce00ae0d0800000000000000
+      internalID: -3392898354066490684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_64
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 180
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e2b46d8b3810280800000000000000
+      internalID: -9078830543909736859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_65
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 180
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8513c5c9d67e24130800000000000000
+      internalID: 3549653914282111320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_66
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 167
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb1947321c876e40800000000000000
+      internalID: 5649638267424414708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_67
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 138
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2525af3b937add50800000000000000
+      internalID: 6762844901075133742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_68
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 18
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1d9173ee9fa5d00800000000000000
+      internalID: 962356271918993911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_69
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 15
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b95c3a7604e1eae0800000000000000
+      internalID: -1521684482602804816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_70
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 13
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef32a587fa2dbb40800000000000000
+      internalID: 5457565566030200801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_71
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 16
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b9eda72c9237110800000000000000
+      internalID: 1257394636228303750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_72
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa62a0d18348333f0800000000000000
+      internalID: -922248122140580177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_73
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d2922abddd8d050800000000000000
+      internalID: 5825650053391920454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_74
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 10
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3689a585f6ca19780800000000000000
+      internalID: -8677965412742555549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_75
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 15
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810413b7f0c114d60800000000000000
+      internalID: 7872604476437250072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_76
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 11
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5318c287e8cc400800000000000000
+      internalID: 345807918194570677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_77
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 8
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7270d09e51a29b90800000000000000
+      internalID: -7236544223702388099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Yellow_78
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 6
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acbcfc1bfc0b1820800000000000000
+      internalID: 2889917858550955176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spot_Yellow_0: 438735861303295878
+      Spot_Yellow_1: -5443194132131645880
+      Spot_Yellow_10: 8456480225900775845
+      Spot_Yellow_11: -4782124706547278928
+      Spot_Yellow_12: -6224723852034855844
+      Spot_Yellow_13: -3489204852086241182
+      Spot_Yellow_14: 7195207782289096165
+      Spot_Yellow_15: -2369672644302833975
+      Spot_Yellow_16: -3231981376331805643
+      Spot_Yellow_17: 4237558349835160666
+      Spot_Yellow_18: -2010025599399484062
+      Spot_Yellow_19: -9162506368787784328
+      Spot_Yellow_2: 4175508278913135645
+      Spot_Yellow_20: -5371279486785280513
+      Spot_Yellow_21: 3267091336128787391
+      Spot_Yellow_22: -1969915909241819927
+      Spot_Yellow_23: 3075252699912748496
+      Spot_Yellow_24: 1081975091512027788
+      Spot_Yellow_25: 7836463810654445337
+      Spot_Yellow_26: -7543418974976823900
+      Spot_Yellow_27: -5714077077813506017
+      Spot_Yellow_28: 5461174032242367440
+      Spot_Yellow_29: 3782472920068966475
+      Spot_Yellow_3: -6646878457282506537
+      Spot_Yellow_30: -8463783501679910638
+      Spot_Yellow_31: -9052032977801252690
+      Spot_Yellow_32: 1844230417723256223
+      Spot_Yellow_33: -7533686726009746214
+      Spot_Yellow_34: 4451107882090608117
+      Spot_Yellow_35: 8023206115423896839
+      Spot_Yellow_36: -3503398677869166171
+      Spot_Yellow_37: -5064617051965091514
+      Spot_Yellow_38: -7817105293635865999
+      Spot_Yellow_39: -6345976130832088297
+      Spot_Yellow_4: -4500593416182665422
+      Spot_Yellow_40: 8880806633199669392
+      Spot_Yellow_41: 7888905304954424322
+      Spot_Yellow_42: 8671663145695824876
+      Spot_Yellow_43: -6608305903470568297
+      Spot_Yellow_44: -3810686002397034596
+      Spot_Yellow_45: -5837045842484390303
+      Spot_Yellow_46: 7896802343922112930
+      Spot_Yellow_47: -3194801752197131939
+      Spot_Yellow_48: -2977495723865618003
+      Spot_Yellow_49: -1367499034955459240
+      Spot_Yellow_5: -7085628027018353101
+      Spot_Yellow_50: -1025466841610776692
+      Spot_Yellow_51: -8764384677539729529
+      Spot_Yellow_52: -178365274410705188
+      Spot_Yellow_53: 4321919590832785756
+      Spot_Yellow_54: 583488974806152075
+      Spot_Yellow_55: -9084428035100512580
+      Spot_Yellow_56: -7349071254265657788
+      Spot_Yellow_57: -3827599135814566795
+      Spot_Yellow_58: 4753422005992415456
+      Spot_Yellow_59: -3866274298207629121
+      Spot_Yellow_6: -3540968202885752445
+      Spot_Yellow_60: 7871738073519288157
+      Spot_Yellow_61: -5310517446333944811
+      Spot_Yellow_62: 4102494981615418987
+      Spot_Yellow_63: -3392898354066490684
+      Spot_Yellow_64: -9078830543909736859
+      Spot_Yellow_65: 3549653914282111320
+      Spot_Yellow_66: 5649638267424414708
+      Spot_Yellow_67: 6762844901075133742
+      Spot_Yellow_68: 962356271918993911
+      Spot_Yellow_69: -1521684482602804816
+      Spot_Yellow_7: 3882280209767736841
+      Spot_Yellow_70: 5457565566030200801
+      Spot_Yellow_71: 1257394636228303750
+      Spot_Yellow_72: -922248122140580177
+      Spot_Yellow_73: 5825650053391920454
+      Spot_Yellow_74: -8677965412742555549
+      Spot_Yellow_75: 7872604476437250072
+      Spot_Yellow_76: 345807918194570677
+      Spot_Yellow_77: -7236544223702388099
+      Spot_Yellow_78: 2889917858550955176
+      Spot_Yellow_8: 3647483212873168610
+      Spot_Yellow_9: -3203988972086280220
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

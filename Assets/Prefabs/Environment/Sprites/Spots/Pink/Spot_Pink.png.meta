@@ -1,0 +1,1638 @@
+fileFormatVersion: 2
+guid: 59cf946c68bbe0c4fbedcc0964e91ce2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4194446797209184448
+    second: Spot_Pink_0
+  - first:
+      213: 4814706642729322743
+    second: Spot_Pink_1
+  - first:
+      213: 7936554419257047297
+    second: Spot_Pink_2
+  - first:
+      213: -4372558242396700266
+    second: Spot_Pink_3
+  - first:
+      213: 4808857344263714907
+    second: Spot_Pink_4
+  - first:
+      213: 6099477432287548066
+    second: Spot_Pink_5
+  - first:
+      213: -7660939505224687209
+    second: Spot_Pink_6
+  - first:
+      213: -4368251815339725479
+    second: Spot_Pink_7
+  - first:
+      213: -756581347414591824
+    second: Spot_Pink_8
+  - first:
+      213: -6648351754196249161
+    second: Spot_Pink_9
+  - first:
+      213: 9041949891905363276
+    second: Spot_Pink_10
+  - first:
+      213: -3384023010519458775
+    second: Spot_Pink_11
+  - first:
+      213: 8876585107380289142
+    second: Spot_Pink_12
+  - first:
+      213: 2755217472727063156
+    second: Spot_Pink_13
+  - first:
+      213: -6720214390551910013
+    second: Spot_Pink_14
+  - first:
+      213: 5046499663728058420
+    second: Spot_Pink_15
+  - first:
+      213: 609988851893078597
+    second: Spot_Pink_16
+  - first:
+      213: 3915864233303976150
+    second: Spot_Pink_17
+  - first:
+      213: 6485937943587816689
+    second: Spot_Pink_18
+  - first:
+      213: -859423968349224229
+    second: Spot_Pink_19
+  - first:
+      213: 7729916104086432571
+    second: Spot_Pink_20
+  - first:
+      213: 8391476701186831113
+    second: Spot_Pink_21
+  - first:
+      213: -1311441367898879397
+    second: Spot_Pink_22
+  - first:
+      213: -4995935882685579502
+    second: Spot_Pink_23
+  - first:
+      213: -6399097190946189287
+    second: Spot_Pink_24
+  - first:
+      213: 7691983414451978635
+    second: Spot_Pink_25
+  - first:
+      213: -654977616211008871
+    second: Spot_Pink_26
+  - first:
+      213: -1576071266458530172
+    second: Spot_Pink_27
+  - first:
+      213: -5271116643407747647
+    second: Spot_Pink_28
+  - first:
+      213: -261612326969923164
+    second: Spot_Pink_29
+  - first:
+      213: 67159777056172202
+    second: Spot_Pink_30
+  - first:
+      213: -5417966206480726208
+    second: Spot_Pink_31
+  - first:
+      213: 5054825051661013721
+    second: Spot_Pink_32
+  - first:
+      213: -4229467902041131449
+    second: Spot_Pink_33
+  - first:
+      213: -9040411629025151801
+    second: Spot_Pink_34
+  - first:
+      213: 5637722655647134705
+    second: Spot_Pink_35
+  - first:
+      213: -5257263098002287444
+    second: Spot_Pink_36
+  - first:
+      213: -7057026983645668666
+    second: Spot_Pink_37
+  - first:
+      213: -2417147005306409861
+    second: Spot_Pink_38
+  - first:
+      213: 3035806546733695494
+    second: Spot_Pink_39
+  - first:
+      213: -4755147462950370132
+    second: Spot_Pink_40
+  - first:
+      213: -3474694420638104131
+    second: Spot_Pink_41
+  - first:
+      213: 7720698604334319639
+    second: Spot_Pink_42
+  - first:
+      213: -9160583161085866796
+    second: Spot_Pink_43
+  - first:
+      213: -5251633075752370745
+    second: Spot_Pink_44
+  - first:
+      213: -105089979850188899
+    second: Spot_Pink_45
+  - first:
+      213: -3689504681954991204
+    second: Spot_Pink_46
+  - first:
+      213: 8223878911872349728
+    second: Spot_Pink_47
+  - first:
+      213: 9187429027108006316
+    second: Spot_Pink_48
+  - first:
+      213: -5853547893121258276
+    second: Spot_Pink_49
+  - first:
+      213: -3652307885523803195
+    second: Spot_Pink_50
+  - first:
+      213: 2466141582458244934
+    second: Spot_Pink_51
+  - first:
+      213: -2314612555209228611
+    second: Spot_Pink_52
+  - first:
+      213: -1580682916314464864
+    second: Spot_Pink_53
+  - first:
+      213: 7745927328209162979
+    second: Spot_Pink_54
+  - first:
+      213: -403639506534476100
+    second: Spot_Pink_55
+  - first:
+      213: -8663175656936493202
+    second: Spot_Pink_56
+  - first:
+      213: -4785685408429924025
+    second: Spot_Pink_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spot_Pink_0
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 450
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8ade0932ba53a30800000000000000
+      internalID: 4194446797209184448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_1
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 480
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f84891ae2641d240800000000000000
+      internalID: 4814706642729322743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 475
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1097f54d13e442e60800000000000000
+      internalID: 7936554419257047297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 472
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6910d32027d8153c0800000000000000
+      internalID: -4372558242396700266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 2685
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58fd54b64e7cb240800000000000000
+      internalID: 4808857344263714907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_5
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 451
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2d2038862b5a450800000000000000
+      internalID: 6099477432287548066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_6
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 445
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79163510c10eea590800000000000000
+      internalID: -7660939505224687209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_7
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 459
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d68313e1ad063c0800000000000000
+      internalID: -4368251815339725479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_8
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 451
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6baa7e5451085f0800000000000000
+      internalID: -756581347414591824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_9
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 449
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b59945dd4f4cb3a0800000000000000
+      internalID: -6648351754196249161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 445
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d96e735857b7d70800000000000000
+      internalID: 9041949891905363276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 448
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c5d3250098901d0800000000000000
+      internalID: -3384023010519458775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_12
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 446
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ebcefff17ff2b70800000000000000
+      internalID: 8876585107380289142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_13
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 440
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a98d491bf7c3620800000000000000
+      internalID: 2755217472727063156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_14
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 448
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3896fa4fd900db2a0800000000000000
+      internalID: -6720214390551910013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 443
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430a3a7e4b4c80640800000000000000
+      internalID: 5046499663728058420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_16
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 445
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a090201ad177800800000000000000
+      internalID: 609988851893078597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_17
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 189
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8adb6e5c1f75630800000000000000
+      internalID: 3915864233303976150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_18
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 171
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f487ca123ea20a50800000000000000
+      internalID: 6485937943587816689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_19
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 142
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd286174476b214f0800000000000000
+      internalID: -859423968349224229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_20
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 20
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ba4a7edbd264b60800000000000000
+      internalID: 7729916104086432571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_21
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903353b8993847470800000000000000
+      internalID: 8391476701186831113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_22
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 20
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a82a23603dccde0800000000000000
+      internalID: -1311441367898879397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_23
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 23
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ff5e7c8cedaaab0800000000000000
+      internalID: -4995935882685579502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_24
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 21
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910d37a3207d137a0800000000000000
+      internalID: -6399097190946189287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_25
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b814b9c592a6fba60800000000000000
+      internalID: 7691983414451978635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_26
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 20
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99229e9045d09e6f0800000000000000
+      internalID: -654977616211008871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_27
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 17
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e0a06988ba02ae0800000000000000
+      internalID: -1576071266458530172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_28
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 21
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c52804275b39d6b0800000000000000
+      internalID: -5271116643407747647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_29
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 24
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9281689f09e5cf0800000000000000
+      internalID: -261612326969923164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_30
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 22
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8a0ae16799ee000800000000000000
+      internalID: 67159777056172202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_31
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 20
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04745a9d0748fc4b0800000000000000
+      internalID: -5417966206480726208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_32
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d210065a98562640800000000000000
+      internalID: 5054825051661013721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_33
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746fbed0a59ed45c0800000000000000
+      internalID: -4229467902041131449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_34
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 23
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c435a485810a8280800000000000000
+      internalID: -9040411629025151801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_35
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3f408a2e63d3e40800000000000000
+      internalID: 5637722655647134705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_36
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4ddc801137a07b0800000000000000
+      internalID: -5257263098002287444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_37
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca147d1957601e90800000000000000
+      internalID: -7057026983645668666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_38
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 21
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cefc2fa91947ed0800000000000000
+      internalID: -2417147005306409861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_39
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6020ed848f9512a20800000000000000
+      internalID: 3035806546733695494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_40
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 19
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca44e388392520eb0800000000000000
+      internalID: -4755147462950370132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_41
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db585da85d767cfc0800000000000000
+      internalID: -3474694420638104131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_42
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7188331897e652b60800000000000000
+      internalID: 7720698604334319639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_43
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc4d0c56221fd080800000000000000
+      internalID: -9160583161085866796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_44
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd761dba837e17b0800000000000000
+      internalID: -5251633075752370745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9793995835aa8ef0800000000000000
+      internalID: -105089979850188899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_46
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 15
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93aee22a0f3cccc0800000000000000
+      internalID: -3689504681954991204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_47
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0263af16c46112270800000000000000
+      internalID: 8223878911872349728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_48
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9a2e7e50e408f70800000000000000
+      internalID: 9187429027108006316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_49
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc65c2643504cea0800000000000000
+      internalID: -5853547893121258276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_50
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3eef03455605dc0800000000000000
+      internalID: -3652307885523803195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_51
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f4e3cf3be793220800000000000000
+      internalID: 2466141582458244934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_52
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe3816f428d0efd0800000000000000
+      internalID: -2314612555209228611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_53
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad3c8e2349401ae0800000000000000
+      internalID: -1580682916314464864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_54
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2d5e58ddf0f7b60800000000000000
+      internalID: 7745927328209162979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6d2b3e10cf56af0800000000000000
+      internalID: -403639506534476100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_56
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f2d75b3a736c780800000000000000
+      internalID: -8663175656936493202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spot_Pink_57
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741a3c70a74d59db0800000000000000
+      internalID: -4785685408429924025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spot_Pink_0: 4194446797209184448
+      Spot_Pink_1: 4814706642729322743
+      Spot_Pink_10: 9041949891905363276
+      Spot_Pink_11: -3384023010519458775
+      Spot_Pink_12: 8876585107380289142
+      Spot_Pink_13: 2755217472727063156
+      Spot_Pink_14: -6720214390551910013
+      Spot_Pink_15: 5046499663728058420
+      Spot_Pink_16: 609988851893078597
+      Spot_Pink_17: 3915864233303976150
+      Spot_Pink_18: 6485937943587816689
+      Spot_Pink_19: -859423968349224229
+      Spot_Pink_2: 7936554419257047297
+      Spot_Pink_20: 7729916104086432571
+      Spot_Pink_21: 8391476701186831113
+      Spot_Pink_22: -1311441367898879397
+      Spot_Pink_23: -4995935882685579502
+      Spot_Pink_24: -6399097190946189287
+      Spot_Pink_25: 7691983414451978635
+      Spot_Pink_26: -654977616211008871
+      Spot_Pink_27: -1576071266458530172
+      Spot_Pink_28: -5271116643407747647
+      Spot_Pink_29: -261612326969923164
+      Spot_Pink_3: -4372558242396700266
+      Spot_Pink_30: 67159777056172202
+      Spot_Pink_31: -5417966206480726208
+      Spot_Pink_32: 5054825051661013721
+      Spot_Pink_33: -4229467902041131449
+      Spot_Pink_34: -9040411629025151801
+      Spot_Pink_35: 5637722655647134705
+      Spot_Pink_36: -5257263098002287444
+      Spot_Pink_37: -7057026983645668666
+      Spot_Pink_38: -2417147005306409861
+      Spot_Pink_39: 3035806546733695494
+      Spot_Pink_4: 4808857344263714907
+      Spot_Pink_40: -4755147462950370132
+      Spot_Pink_41: -3474694420638104131
+      Spot_Pink_42: 7720698604334319639
+      Spot_Pink_43: -9160583161085866796
+      Spot_Pink_44: -5251633075752370745
+      Spot_Pink_45: -105089979850188899
+      Spot_Pink_46: -3689504681954991204
+      Spot_Pink_47: 8223878911872349728
+      Spot_Pink_48: 9187429027108006316
+      Spot_Pink_49: -5853547893121258276
+      Spot_Pink_5: 6099477432287548066
+      Spot_Pink_50: -3652307885523803195
+      Spot_Pink_51: 2466141582458244934
+      Spot_Pink_52: -2314612555209228611
+      Spot_Pink_53: -1580682916314464864
+      Spot_Pink_54: 7745927328209162979
+      Spot_Pink_55: -403639506534476100
+      Spot_Pink_56: -8663175656936493202
+      Spot_Pink_57: -4785685408429924025
+      Spot_Pink_6: -7660939505224687209
+      Spot_Pink_7: -4368251815339725479
+      Spot_Pink_8: -756581347414591824
+      Spot_Pink_9: -6648351754196249161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
