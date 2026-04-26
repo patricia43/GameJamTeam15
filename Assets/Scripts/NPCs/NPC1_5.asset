@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c91d01c7a20114ab571b96e0ae5f2c, type: 3}
+  m_Name: NPC1_5
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  introDialogue:
+  - NPCName: NPC1
+    text: Good Evening! You know what I wanted to do tonight? To just drive away,
+      man, on Long Island to just take in the feeling of emptiness and feel nothing...
+      But I cannot do it yet... I am not empty enough... I... I'm not making any
+      sense, am I?
+  - NPCName: Barman
+    text: On the contrary! I have the trick shot just to spin the night swiling
+  drinkDialogue:
+  - NPCName: NPC1
+    text: Ogh Good God!
+  dropDialogue:
+  - NPCName: NPC1
+    text: Experiences shape us and what you sell here, is the ultimate mold!
+  - NPCName: Barman
+    text: I... am not sure how to take in all that.... Thank you, madame!
+  exitDialogue:
+  - NPCName: NPC1
+    text: I am the infinite! I am the dream prowler! I am the darkness empowered!
+  - NPCName: Barman
+    text: Ma'am, I think it is time to bid you a Good Night!

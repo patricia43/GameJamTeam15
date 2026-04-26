@@ -6,6 +6,7 @@ public enum GameState
     Cutscene,
     Tutorial,
     Playing,
+    Dialogue,
     Paused,
     GameOver
 }
@@ -14,7 +15,7 @@ public class GameManager : MonoBehaviour
 {
 
     [SerializeField] private TutorialManager tutorialManager;
-    [SerializeField] private float cutsceneDuration = 2f;
+    [SerializeField] private float cutsceneDuration = 0.1f;
 
     public static GameManager Instance;
 
@@ -24,6 +25,21 @@ public class GameManager : MonoBehaviour
 
     [Header("Pause Settings")]
     [SerializeField] private GameObject pausePanel;
+
+    public bool IsDialogueActive { get; private set; }
+
+    private GameState previousState;
+
+
+    public void StartDialogueBlock()
+    {
+        IsDialogueActive = true;
+    }
+
+    public void EndDialogueBlock()
+    {
+        IsDialogueActive = false;
+    }
 
     private void Awake()
     {
@@ -57,10 +73,16 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (CurrentState == GameState.Playing)
+            // Only allow pausing during Playing or Tutorial
+            if (CurrentState == GameState.Playing ||
+                CurrentState == GameState.Tutorial)
+            {
                 PauseGame();
+            }
             else if (CurrentState == GameState.Paused)
+            {
                 ResumeGame();
+            }
         }
     }
 
@@ -84,22 +106,22 @@ public class GameManager : MonoBehaviour
 
     private void HandleStateChange(GameState state)
     {
+        // First: handle pause panel globally
+        if (pausePanel != null)
+            pausePanel.SetActive(state == GameState.Paused);
+
         switch (state)
         {
             case GameState.Playing:
                 Time.timeScale = 1f;
-                if (pausePanel != null)
-                    pausePanel.SetActive(false);
                 break;
 
             case GameState.Paused:
                 Time.timeScale = 0f;
-                if (pausePanel != null)
-                    pausePanel.SetActive(true);
                 break;
 
             case GameState.Cutscene:
-                Time.timeScale = 1f; // animations still run
+                Time.timeScale = 1f;
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
                 break;
@@ -108,6 +130,10 @@ public class GameManager : MonoBehaviour
                 Time.timeScale = 1f;
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
+                break;
+
+            case GameState.Dialogue:
+                Time.timeScale = 1f;
                 break;
 
             case GameState.GameOver:
@@ -122,12 +148,16 @@ public class GameManager : MonoBehaviour
 
     public void PauseGame()
     {
+        if (CurrentState == GameState.Paused)
+            return;
+
+        previousState = CurrentState;
         SetState(GameState.Paused);
     }
 
     public void ResumeGame()
     {
-        SetState(GameState.Playing);
+        SetState(previousState);
     }
 
     public bool IsPaused()
@@ -135,10 +165,16 @@ public class GameManager : MonoBehaviour
         return CurrentState == GameState.Paused;
     }
 
+    public bool IsMenuOpen()
+    {
+        return pausePanel != null && pausePanel.activeInHierarchy;
+    }
+
     public bool IsGameplayBlocked()
     {
         return CurrentState == GameState.Paused ||
                CurrentState == GameState.GameOver ||
-               CurrentState == GameState.Cutscene;
+               CurrentState == GameState.Cutscene ||
+               IsDialogueActive;
     }
 }

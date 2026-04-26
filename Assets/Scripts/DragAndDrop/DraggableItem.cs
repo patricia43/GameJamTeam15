@@ -21,6 +21,9 @@ public class DraggableItem : MonoBehaviour
         if (GameManager.Instance.IsGameplayBlocked())
             return;
 
+        if (GameManager.Instance.IsMenuOpen())
+            return;
+
         if (!isDragging) return;
 
         FollowMouse();

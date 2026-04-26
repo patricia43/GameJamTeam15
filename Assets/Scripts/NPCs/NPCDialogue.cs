@@ -4,5 +4,6 @@ public class NPCDialogue : ScriptableObject
 {
     public DialogueLines[] introDialogue;
     public DialogueLines[] drinkDialogue;
+    public DialogueLines[] dropDialogue;
     public DialogueLines[] exitDialogue;
 }

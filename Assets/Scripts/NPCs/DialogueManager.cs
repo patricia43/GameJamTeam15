@@ -1,31 +1,55 @@
-using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public TextMeshProUGUI dialogueText;
-    public GameObject dialoguePanel;
+    //public TextMeshProUGUI dialogueText;
+    //public GameObject dialoguePanel;
+
+    [Header("NPC Dialogue UI")]
+    public GameObject npcPanel;
+    public TextMeshProUGUI npcText;
+
+    [Header("Barman Dialogue UI")]
+    public GameObject barmanPanel;
+    public TextMeshProUGUI barmanText;
 
     private List<DialogueLines> lines = new List<DialogueLines>();
     private int currentIndex = 0;
-    
+
+    public System.Action OnDialogueFinished;
+
     public void StartDialogue(DialogueLines[] dialogueLines)
     {
+        if (dialogueLines == null || dialogueLines.Length == 0)
+            return;
+
         lines.Clear();
         lines.AddRange(dialogueLines);
+
         currentIndex = 0;
 
-        dialoguePanel.SetActive(true);
+        // Make sure both panels start hidden
+        npcPanel.SetActive(false);
+        barmanPanel.SetActive(false);
 
-        // DisplayNextLine();
+        GameManager.Instance.SetState(GameState.Dialogue);
+
         DisplayCurrentLine();
     }
 
     void Update()
     {
-        if (lines.Count > 0 && Input.GetKeyDown(KeyCode.Space))
+        if (GameManager.Instance.CurrentState != GameState.Dialogue)
+            return;
+
+        if (GameManager.Instance.IsMenuOpen())
+            return;
+
+        if (lines.Count > 0 && Input.GetMouseButtonDown(0))
         {
             DisplayNextLine();
         }
@@ -41,9 +65,24 @@ public class DialogueManager : MonoBehaviour
 
         DialogueLines line = lines[currentIndex];
 
-        dialogueText.text = line.NPCName + ": " + line.text;
+        bool isBarman = line.NPCName.ToLower() == "barman";
 
-        //Debug.Log(line.NPCName + ": " + line.text);
+        if (isBarman)
+        {
+            // Activate barman UI
+            barmanPanel.SetActive(true);
+            npcPanel.SetActive(false);
+
+            barmanText.text = line.text;
+        }
+        else
+        {
+            // Activate npc UI
+            npcPanel.SetActive(true);
+            barmanPanel.SetActive(false);
+
+            npcText.text = line.text;
+        }
     }
 
     public void DisplayNextLine()
@@ -54,8 +93,13 @@ public class DialogueManager : MonoBehaviour
 
     private void EndDialogue()
     {
-        //Debug.Log("Dialgoue ended");
-        dialoguePanel.SetActive(false);
+        npcPanel.SetActive(false);
+        barmanPanel.SetActive(false);
+
         lines.Clear();
+
+        GameManager.Instance.SetState(GameState.Playing);
+
+        OnDialogueFinished?.Invoke();
     }
 }

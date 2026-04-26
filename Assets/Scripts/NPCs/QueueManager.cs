@@ -4,11 +4,18 @@ using System.Collections.Generic;
 public class QueueManager : MonoBehaviour
 {
     public List<NPCInteractionTest> npcQueue = new List<NPCInteractionTest>();
-    private NPCInteractionTest currentNPCAtBar;
+    public NPCInteractionTest currentNPCAtBar;
 
     [Header("Queue Positioning")]
     public Transform queuePoint;   // front of queue
     public float spacing = 1.5f;   // distance between NPCs
+
+    [SerializeField] private GameObject takeOrderButton;
+
+    // public NPCInteractionTest CurrentNPCAtBar { get; private set; }
+
+    [SerializeField] private FlickerImage takeOrderImageFlicker;
+    private bool takeOrderUsedOnce = false;
 
     void Start()
     {
@@ -16,6 +23,8 @@ public class QueueManager : MonoBehaviour
         {
             npc.OnServiceFinished += HandleServiceFinished;
         }
+
+        UpdateTakeOrderButton();
     }
 
     // ==========================
@@ -24,18 +33,25 @@ public class QueueManager : MonoBehaviour
 
     public void TakeOrder()
     {
-        if (npcQueue.Count == 0 || currentNPCAtBar != null)
+        if (!takeOrderUsedOnce)
+        {
+            takeOrderUsedOnce = true;
+
+            if (takeOrderImageFlicker != null)
+                takeOrderImageFlicker.StopFlicker();
+        }
+
+        if (npcQueue.Count == 0)
             return;
 
-        currentNPCAtBar = npcQueue[0];
+        NPCInteractionTest npc = npcQueue[0];
 
         npcQueue.RemoveAt(0);
-        npcQueue.Add(currentNPCAtBar);
+        npcQueue.Add(npc);
 
-        currentNPCAtBar.TakeOrder();
+        currentNPCAtBar = npc;
 
-        UpdateQueuePositions();
-        DebugQueueOrder();
+        npc.TakeOrder();
     }
 
     public void ServeDrink()
@@ -71,6 +87,8 @@ public class QueueManager : MonoBehaviour
 
         UpdateQueuePositions();
         DebugQueueOrder();
+
+        UpdateTakeOrderButton();
     }
 
     void DebugQueueOrder()
@@ -91,5 +109,10 @@ public class QueueManager : MonoBehaviour
 
             npcQueue[i].MoveToQueuePosition(targetPos);
         }
+    }
+
+    void UpdateTakeOrderButton()
+    {
+        // Do nothing.
     }
 }

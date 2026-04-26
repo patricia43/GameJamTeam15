@@ -4,7 +4,9 @@ public class NPCController_ale : MonoBehaviour
 {
     public NPCDialogueState currentDState;
     //public NPCState currentState;
-    public NPCDialogue dialogueData;
+    public NPCDialogue[] dialogueSets;
+
+    private int currentDialogueIndex = 0;
 
     private DialogueManager dialogueManager;
 
@@ -15,33 +17,66 @@ public class NPCController_ale : MonoBehaviour
         // EnterBar();
     }
 
+    NPCDialogue GetCurrentDialogue()
+    {
+        if (dialogueSets == null || dialogueSets.Length == 0)
+            return null;
+
+        if (currentDialogueIndex >= dialogueSets.Length)
+            currentDialogueIndex = dialogueSets.Length - 1; // stay at last
+
+        return dialogueSets[currentDialogueIndex];
+    }
+
+    public void AdvanceDialogueSet()
+    {
+        if (dialogueSets == null || dialogueSets.Length == 0)
+            return;
+
+        currentDialogueIndex++;
+
+        if (currentDialogueIndex >= dialogueSets.Length)
+            currentDialogueIndex = dialogueSets.Length - 1; // clamp
+    }
+
     public void EnterBar()
     {
         currentDState = NPCDialogueState.Approaching;
 
-        if (dialogueData != null)
-        {
-            dialogueManager.StartDialogue(dialogueData.introDialogue);
-        }
+        var dialogue = GetCurrentDialogue();
+        if (dialogue != null)
+            dialogueManager.StartDialogue(dialogue.introDialogue);
     }
 
     public void ReceiveDrink()
     {
         currentDState = NPCDialogueState.Drinking;
 
-        if (dialogueData != null)
-        {
-            dialogueManager.StartDialogue(dialogueData.drinkDialogue);
-        }
+        var dialogue = GetCurrentDialogue();
+        if (dialogue != null)
+            dialogueManager.StartDialogue(dialogue.drinkDialogue);
     }
 
     public void LeaveBar()
     {
         currentDState = NPCDialogueState.Leaving;
 
-        if (dialogueData != null)
-        {
-            dialogueManager.StartDialogue(dialogueData.exitDialogue);
-        }
+        if (dialogueSets == null || dialogueSets.Length == 0)
+            return;
+
+        int randomIndex = Random.Range(0, dialogueSets.Length);
+        var dialogue = dialogueSets[randomIndex];
+
+        if (dialogue != null)
+            dialogueManager.StartDialogue(dialogue.exitDialogue);
+    }
+
+    public void DropDrink()
+    {
+        currentDState = NPCDialogueState.Drinking;
+
+        var dialogue = GetCurrentDialogue();
+        if (dialogue != null)
+            dialogueManager.StartDialogue(dialogue.dropDialogue);
     }
 }

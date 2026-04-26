@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c91d01c7a20114ab571b96e0ae5f2c, type: 3}
+  m_Name: NPC1_3
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  introDialogue:
+  - NPCName: NPC1
+    text: Hello there! I would like something soft and fruity, I want to take it
+      easy cause I  want to be able to work climb the ladder at work and I need all
+      the energy and vibe I can get!
+  - NPCName: Barman
+    text: I've got you ma'am, I'll give have a special mix to make you feel glamourous!
+  drinkDialogue:
+  - NPCName: NPC1
+    text: My, my oh, my!
+  dropDialogue:
+  - NPCName: NPC1
+    text: I think you're my new favourite person!
+  - NPCName: Barman
+    text: That is flattering, miss!
+  exitDialogue:
+  - NPCName: NPC1
+    text: I swear to God, I do not need any shrink at all, I can just come to you
+      and get medicated and you can fix me, all night long... come on , when does
+      your shift end?
+  - NPCName: Barman
+    text: Miss, it's ok... I am glad that you enjoy my services and I did take the
+      liberty to call you a taxi, to take you home safe and sound! Have a great night!

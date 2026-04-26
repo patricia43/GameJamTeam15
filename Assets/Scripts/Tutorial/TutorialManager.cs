@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
+using UnityEngine.UI;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -14,15 +16,117 @@ public class TutorialManager : MonoBehaviour
 
     private int step = 0;
 
+    public FlickerHighlight mixButtonHighlight;
+
+    [Header("Tutorial UI")]
+    public GameObject tutorialMessagePanel;
+    public TextMeshProUGUI tutorialMessageText;
+
+    [Header("Buttons")]
+    public GameObject takeOrderButton;
+
+    //[Header("Button Text Flicker")]
+    //public FlickerText mixButtonTextFlicker;
+    //public FlickerText takeOrderTextFlicker;
+
+    public FlickerImage mixButtonImageFlicker;
+    public FlickerImage takeOrderImageFlicker;
+
+    private bool waitingForIntroClick = false;
+
     void Awake()
     {
         Instance = this;
     }
 
+    void Update()
+    {
+        if (!waitingForIntroClick || !Input.GetMouseButtonDown(0))
+            return;
+
+        tutorialMessagePanel.SetActive(false);
+        waitingForIntroClick = false;
+
+        // INTRO CLICK
+        if (step == 0)
+        {
+            ShowInstructionMessage("Drag and drop the lemon into the glass,\nthen the water,\nthen click 'Mix & Serve'.");
+            step = -1; // temporary instruction step
+            return;
+        }
+
+        // INSTRUCTION CLICK
+        if (step == -1)
+        {
+            GameManager.Instance.SetState(GameState.Tutorial);
+            lemonHighlight.StartFlicker();
+            step = 0;
+            return;
+        }
+
+        // COMPLETION CLICK
+        if (step == 5)
+        {
+            if (takeOrderButton != null)
+                takeOrderButton.SetActive(true);
+
+            takeOrderImageFlicker?.StartFlicker();
+
+            GameManager.Instance.SetState(GameState.Playing);
+            step = 6;
+        }
+    }
+
     public void BeginTutorial()
     {
         step = 0;
-        lemonHighlight.StartFlicker();
+
+        if (takeOrderButton != null)
+            takeOrderButton.SetActive(false);
+
+        ShowIntroMessage("Let's mix and serve a Lemonade to start!");
+    }
+
+    void ShowIntroMessage(string message)
+    {
+        if (tutorialMessageText != null)
+            tutorialMessageText.text = message;
+
+        if (tutorialMessagePanel != null)
+            tutorialMessagePanel.SetActive(true);
+
+        waitingForIntroClick = true;
+
+        GameManager.Instance.SetState(GameState.Dialogue);
+    }
+
+    //void HideIntroMessage()
+    //{
+    //    if (tutorialMessagePanel != null)
+    //        tutorialMessagePanel.SetActive(false);
+
+    //    waitingForIntroClick = false;
+
+    //    GameManager.Instance.SetState(GameState.Tutorial);
+
+    //    lemonHighlight.StartFlicker();
+    //}
+
+    void HideIntroMessage()
+    {
+        tutorialMessagePanel.SetActive(false);
+        waitingForIntroClick = false;
+
+        ShowInstructionMessage("Drag and drop the lemon into the glass,\nthen water,\nthen click 'Mix & Serve'.");
+    }
+
+    void ShowInstructionMessage(string message)
+    {
+        tutorialMessageText.text = message;
+        tutorialMessagePanel.SetActive(true);
+        waitingForIntroClick = true;
+
+        GameManager.Instance.SetState(GameState.Dialogue);
     }
 
     public void NotifyIngredientPicked(IngredientData ingredient)
@@ -52,11 +156,38 @@ public class TutorialManager : MonoBehaviour
         else if (step == 3 && ingredient == waterIngredient)
         {
             glassHighlight.StopFlicker();
-            step = 4;
-            Debug.Log("Tutorial Complete!");
-
-            GameManager.Instance.SetState(GameState.Playing);
+            mixButtonImageFlicker?.StartFlicker();
+            step = 4; // waiting for Mix click
         }
+    }
+
+    public void NotifyMixPressed()
+    {
+        if (GameManager.Instance.CurrentState != GameState.Tutorial)
+            return;
+
+        if (step == 4)
+        {
+            mixButtonImageFlicker?.StopFlicker();
+            step = 5;
+
+            CompleteTutorial();
+        }
+    }
+
+    void CompleteTutorial()
+    {
+        ShowCompletionMessage("Now I am ready to take orders.");
+        takeOrderButton.SetActive(true);
+    }
+
+    void ShowCompletionMessage(string message)
+    {
+        tutorialMessageText.text = message;
+        tutorialMessagePanel.SetActive(true);
+        waitingForIntroClick = true;
+
+        GameManager.Instance.SetState(GameState.Dialogue);
     }
 
     public bool CanInteractWith(IngredientData ingredient)

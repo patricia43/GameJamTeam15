@@ -29,12 +29,14 @@ public class NPCInteractionTest : MonoBehaviour
 
     private NPCController_ale npcDialogueController;
 
+    [SerializeField] private AudioClip serveDrinkSFX;
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         npcDialogueController = GetComponent<NPCController_ale>();
 
-        transform.position = queuePoint.position;
+        // transform.position = queuePoint.position;
         UpdateVisual();
     }
 
@@ -47,12 +49,18 @@ public class NPCInteractionTest : MonoBehaviour
         if (serviceState != ServiceState.InQueue || isMoving)
             return;
 
-        Debug.Log("Taking order.");
-        StartCoroutine(MoveTo(barPoint.position));
+        StartCoroutine(TakeOrderSequence());
+    }
+
+    IEnumerator TakeOrderSequence()
+    {
         serviceState = ServiceState.AtBar;
 
-        // trigger enter dialogue
+        yield return StartCoroutine(MoveTo(barPoint.position));
+
         npcDialogueController?.EnterBar();
+
+        yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
     }
 
     public void ServeDrink()
@@ -60,13 +68,15 @@ public class NPCInteractionTest : MonoBehaviour
         if (serviceState != ServiceState.AtBar || currentState == NPCState.Dead)
             return;
 
-        normalDrinkCount++;
-        UpdateStateFromNormalDrinks();
-
-        // trigger drinking dialogue
-        npcDialogueController?.ReceiveDrink();
-
-        AfterService();
+        //if (currentState == NPCState.Insane)
+        //{
+        //    StartCoroutine(InsaneServeSequence());
+        //}
+        //else
+        //{
+        //    StartCoroutine(ServeDrinkSequence(false));
+        //}
+        StartCoroutine(ServeDrinkSequence(false));
     }
 
     public void ServeDrinkWithDelirium()
@@ -74,45 +84,124 @@ public class NPCInteractionTest : MonoBehaviour
         if (serviceState != ServiceState.AtBar || currentState == NPCState.Dead)
             return;
 
-        deliriumCount++;
-        UpdateStateFromDelirium();
-
-        // trigger drinking dialogue
-        npcDialogueController?.ReceiveDrink();
-
-        AfterService();
-    }
-
-    void AfterService()
-    {
-        if (currentState == NPCState.Dead || currentState == NPCState.Insane)
+        if (currentState == NPCState.Insane)
         {
-            StartCoroutine(MoveAndDie(exitPoint.position));
-            serviceState = ServiceState.Leaving;
+            StartCoroutine(InsaneServeSequence());
         }
         else
         {
-            StartCoroutine(MoveBackToQueue());
+            StartCoroutine(ServeDrinkSequence(true));
         }
     }
 
-    IEnumerator MoveAndDie(Vector3 target)
+    IEnumerator InsaneServeSequence()
     {
-        // trigger exit dialogue
-        npcDialogueController?.LeaveBar();
+        serviceState = ServiceState.Leaving;
 
-        yield return StartCoroutine(MoveTo(target));
+        // Say goodbye
+        npcDialogueController?.LeaveBar();
+        yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
+
+        // Move right
+        yield return StartCoroutine(MoveTo(exitPoint.position));
 
         SetState(NPCState.Dead);
-
         OnServiceFinished?.Invoke(this);
     }
+
+    IEnumerator ServeDrinkSequence(bool delirium)
+    {
+        if (delirium)
+        {
+            deliriumCount++;
+            UpdateStateFromDelirium();
+        }
+        else
+        {
+            normalDrinkCount++;
+            UpdateStateFromNormalDrinks();
+        }
+
+        // play sfx
+        if (AudioManager.instance != null && serveDrinkSFX != null)
+        {
+            AudioManager.instance.PlaySound(serveDrinkSFX, transform, 1f);
+        }
+
+        if (currentState == NPCState.Insane)
+        {
+            yield return StartCoroutine(InsaneServeSequence());
+            yield break;
+        }
+
+        // Drinking dialogue
+        npcDialogueController?.ReceiveDrink();
+        yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
+
+        // Animation delay
+        yield return new WaitForSeconds(0.5f);
+
+        // Drop dialogue
+        npcDialogueController?.DropDrink();
+        yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
+
+        // Move normally
+        yield return StartCoroutine(AfterServiceSequence());
+    }
+
+    IEnumerator AfterServiceSequence()
+    {
+        if (currentState == NPCState.Dead || currentState == NPCState.Insane)
+        {
+            serviceState = ServiceState.Leaving;
+
+            // Exit dialogue BEFORE moving
+            npcDialogueController?.LeaveBar();
+            yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
+
+            yield return StartCoroutine(MoveTo(exitPoint.position));
+
+            SetState(NPCState.Dead);
+            OnServiceFinished?.Invoke(this);
+        }
+        else
+        {
+            yield return StartCoroutine(MoveBackToQueue());
+        }
+    }
+
+    //void AfterService()
+    //{
+    //    if (currentState == NPCState.Dead || currentState == NPCState.Insane)
+    //    {
+    //        StartCoroutine(MoveAndDie(exitPoint.position));
+    //        serviceState = ServiceState.Leaving;
+    //    }
+    //    else
+    //    {
+    //        StartCoroutine(MoveBackToQueue());
+    //    }
+    //}
+
+    //IEnumerator MoveAndDie(Vector3 target)
+    //{
+    //    // trigger exit dialogue
+    //    npcDialogueController?.LeaveBar();
+
+    //    yield return StartCoroutine(MoveTo(target));
+
+    //    SetState(NPCState.Dead);
+
+    //    OnServiceFinished?.Invoke(this);
+    //}
 
     IEnumerator MoveBackToQueue()
     {
         yield return StartCoroutine(MoveTo(queuePoint.position));
 
         serviceState = ServiceState.InQueue;
+
+        npcDialogueController?.AdvanceDialogueSet();
 
         OnServiceFinished?.Invoke(this);
     }
@@ -123,11 +212,14 @@ public class NPCInteractionTest : MonoBehaviour
 
     IEnumerator MoveTo(Vector3 target)
     {
+        // Wait until dialogue finishes
+        //while (GameManager.Instance.CurrentState == GameState.Dialogue)
+        //    yield return null;
+
         isMoving = true;
 
         float duration = 0.5f;
         float time = 0f;
-
         Vector3 start = transform.position;
 
         while (time < duration)
@@ -160,9 +252,9 @@ public class NPCInteractionTest : MonoBehaviour
             SetState(NPCState.Mild);
         else if (normalDrinkCount == 2)
             SetState(NPCState.Wild);
-        else if (normalDrinkCount == 4)
+        else if (normalDrinkCount == 3)
             SetState(NPCState.Crazy);
-        else if (normalDrinkCount >= 6)
+        else if (normalDrinkCount >= 4)
             SetState(NPCState.Insane);
     }
 
@@ -177,12 +269,10 @@ public class NPCInteractionTest : MonoBehaviour
         {
             if (Random.value > 0.5f)
             {
-                // dies
-                StartCoroutine(MoveAndDie(exitPoint.position));
-                serviceState = ServiceState.Leaving;
-            } else
+                StartCoroutine(InstantDeathSequence());
+            }
+            else
             {
-                // also dies?
                 SetState(NPCState.Insane);
             }
         }
@@ -190,6 +280,19 @@ public class NPCInteractionTest : MonoBehaviour
         {
             SetState(NPCState.Insane);
         }
+    }
+
+    IEnumerator InstantDeathSequence()
+    {
+        serviceState = ServiceState.Leaving;
+
+        npcDialogueController?.LeaveBar();
+        yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
+
+        yield return StartCoroutine(MoveTo(exitPoint.position));
+
+        SetState(NPCState.Dead);
+        OnServiceFinished?.Invoke(this);
     }
 
     void SetState(NPCState newState)
