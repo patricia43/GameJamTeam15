@@ -4,13 +4,15 @@ using System.Collections.Generic;
 public class QueueManager : MonoBehaviour
 {
     public List<NPCInteractionTest> npcQueue = new List<NPCInteractionTest>();
-    private NPCInteractionTest currentNPCAtBar;
+    public NPCInteractionTest currentNPCAtBar;
 
     [Header("Queue Positioning")]
     public Transform queuePoint;   // front of queue
     public float spacing = 1.5f;   // distance between NPCs
 
-    public NPCInteractionTest CurrentNPCAtBar { get; private set; }
+    [SerializeField] private GameObject takeOrderButton;
+
+    // public NPCInteractionTest CurrentNPCAtBar { get; private set; }
 
     void Start()
     {
@@ -18,6 +20,8 @@ public class QueueManager : MonoBehaviour
         {
             npc.OnServiceFinished += HandleServiceFinished;
         }
+
+        UpdateTakeOrderButton();
     }
 
     // ==========================
@@ -26,7 +30,7 @@ public class QueueManager : MonoBehaviour
 
     public void TakeOrder()
     {
-        if (npcQueue.Count == 0)
+        if (npcQueue.Count == 0 || currentNPCAtBar != null)
             return;
 
         NPCInteractionTest npc = npcQueue[0];
@@ -34,7 +38,9 @@ public class QueueManager : MonoBehaviour
         npcQueue.RemoveAt(0);
         npcQueue.Add(npc);
 
-        CurrentNPCAtBar = npc;
+        currentNPCAtBar = npc;
+
+        UpdateTakeOrderButton();   // hide immediately
 
         npc.TakeOrder();
     }
@@ -72,6 +78,8 @@ public class QueueManager : MonoBehaviour
 
         UpdateQueuePositions();
         DebugQueueOrder();
+
+        UpdateTakeOrderButton();
     }
 
     void DebugQueueOrder()
@@ -92,5 +100,15 @@ public class QueueManager : MonoBehaviour
 
             npcQueue[i].MoveToQueuePosition(targetPos);
         }
+    }
+
+    void UpdateTakeOrderButton()
+    {
+        if (takeOrderButton == null)
+            return;
+
+        bool canTakeOrder = npcQueue.Count > 0 && currentNPCAtBar == null;
+
+        takeOrderButton.SetActive(canTakeOrder);
     }
 }

@@ -157,13 +157,13 @@ public class GlassManager : MonoBehaviour
 
     void ServeAfterMix()
     {
-        if (queueManager == null || queueManager.CurrentNPCAtBar == null)
+        if (queueManager == null || queueManager.currentNPCAtBar == null)
             return;
 
         if (pendingServeWithDelirium)
-            queueManager.CurrentNPCAtBar.ServeDrinkWithDelirium();
+            queueManager.currentNPCAtBar.ServeDrinkWithDelirium();
         else
-            queueManager.CurrentNPCAtBar.ServeDrink();
+            queueManager.currentNPCAtBar.ServeDrink();
 
         pendingServeWithDelirium = false;
     }

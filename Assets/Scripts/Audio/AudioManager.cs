@@ -10,11 +10,21 @@ public class AudioManager : MonoBehaviour
     private AudioSource currentMusicSource;
     [SerializeField] private AudioClip debugClip;
 
+    [SerializeField] private AudioClip backgroundMusic;
+
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
+        }
+    }
+
+    private void Start()
+    {
+        if (backgroundMusic != null)
+        {
+            PlayMusic(backgroundMusic, 0.6f, true);
         }
     }
 

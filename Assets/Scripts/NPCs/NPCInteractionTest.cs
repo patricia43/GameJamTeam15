@@ -29,6 +29,8 @@ public class NPCInteractionTest : MonoBehaviour
 
     private NPCController_ale npcDialogueController;
 
+    [SerializeField] private AudioClip serveDrinkSFX;
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -118,6 +120,12 @@ public class NPCInteractionTest : MonoBehaviour
         {
             normalDrinkCount++;
             UpdateStateFromNormalDrinks();
+        }
+
+        // play sfx
+        if (AudioManager.instance != null && serveDrinkSFX != null)
+        {
+            AudioManager.instance.PlaySound(serveDrinkSFX, transform, 1f);
         }
 
         if (currentState == NPCState.Insane)
