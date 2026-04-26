@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c91d01c7a20114ab571b96e0ae5f2c, type: 3}
+  m_Name: NPC1_6
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  introDialogue:
+  - NPCName: NPC1
+    text: Hi there! You know... I've been thinking... What do you think God looks
+      like?
+  - NPCName: Barman
+    text: Well i have just the thing to make you meet God!
+  drinkDialogue:
+  - NPCName: NPC1
+    text: Oh waaw!
+  dropDialogue:
+  - NPCName: NPC1
+    text: That was FIREEEEE!
+  - NPCName: Barman
+    text: Thank you, miss! I will try to keep the firefighters out!
+  exitDialogue:
+  - NPCName: NPC1
+    text: God, I wish everyone would get me like you do.. Yet no one ever will...
+  - NPCName: Barman
+    text: Miss, I am sure there are plenty of people like me in the outside world.
+      You just have to get out of here and meet them! Have a great night!

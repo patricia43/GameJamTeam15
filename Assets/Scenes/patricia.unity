@@ -1415,7 +1415,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCController_ale
   currentDState: 0
-  dialogueData: {fileID: 11400000, guid: eb46b3850fcfb3040b784f915fd5a05a, type: 2}
+  dialogueSets:
+  - {fileID: 11400000, guid: eb46b3850fcfb3040b784f915fd5a05a, type: 2}
+  - {fileID: 11400000, guid: 7c58075f391dfc9468e4e89011715684, type: 2}
+  - {fileID: 11400000, guid: a4b09bb1f51ad4e48b1f0b41fb599bd1, type: 2}
+  - {fileID: 11400000, guid: 3a1613952bf98d44e81c171bc5f7a84f, type: 2}
+  - {fileID: 11400000, guid: 1815d831e12bbc248b0ab4489d5429cf, type: 2}
+  - {fileID: 11400000, guid: f4b5a5d12e86c394287a2ae3a7a5496f, type: 2}
 --- !u!1 &421958422
 GameObject:
   m_ObjectHideFlags: 0
@@ -6597,7 +6603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCController_ale
   currentDState: 0
-  dialogueData: {fileID: 11400000, guid: eb46b3850fcfb3040b784f915fd5a05a, type: 2}
+  dialogueSets: []
 --- !u!4 &2029326345
 Transform:
   m_ObjectHideFlags: 0

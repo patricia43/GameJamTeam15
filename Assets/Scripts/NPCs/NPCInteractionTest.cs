@@ -193,6 +193,8 @@ public class NPCInteractionTest : MonoBehaviour
 
         serviceState = ServiceState.InQueue;
 
+        npcDialogueController?.AdvanceDialogueSet();
+
         OnServiceFinished?.Invoke(this);
     }
 
