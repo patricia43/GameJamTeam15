@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c91d01c7a20114ab571b96e0ae5f2c, type: 3}
+  m_Name: NPC1_2
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  introDialogue:
+  - NPCName: NPC1
+    text: Howdy partner! Give me an Old Fashioned cause I can't seem to find my place
+      in the world
+  - NPCName: Barman
+    text: Oh! I actually have something that will banish that anxious feeling of
+      inadequacy and will better suit your taste, kind sir!
+  drinkDialogue:
+  - NPCName: NPC1
+    text: Ugh, oh,  Goodness gracious!
+  dropDialogue:
+  - NPCName: NPC1
+    text: You sure know your recepies young man!
+  - NPCName: Barman
+    text: ' It is an honour to serve you, sir!'
+  exitDialogue:
+  - NPCName: NPC1
+    text: I believe I can cast voids behind my back.. If I lay down I'll collapse
+      into a new dimmension!
+  - NPCName: Barman
+    text: It is true some of the ingredients I put there known of inducing sleep.
+      Do call a cab and not drive tho, sir! Have a good night!

@@ -14,6 +14,8 @@ public class HoverHighlight : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (GameManager.Instance.IsGameplayBlocked())
+            return;
         sr.color = Color.white * 1.5f;  // white highlight
     }
 

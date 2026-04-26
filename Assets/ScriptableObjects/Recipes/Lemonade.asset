@@ -10,19 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44ac5d4739709224d81ef2d6f56f4764, type: 3}
-  m_Name: ForFeelingInadequate
+  m_Name: Lemonade
   m_EditorClassIdentifier: Assembly-CSharp::CocktailRecipe
-  cocktailName: For Feeling Inadequate
+  cocktailName: Lemonade
   slots:
   - isFixedIngredient: 1
-    fixedIngredient: {fileID: 11400000, guid: 0b7f6d2b136e14e41869ef7021eefe98, type: 2}
+    fixedIngredient: {fileID: 11400000, guid: b9b6a3afcd84ead4c945ca80ba51248b, type: 2}
     requiredOwner: 0
     requiredCategory: 0
   - isFixedIngredient: 1
-    fixedIngredient: {fileID: 11400000, guid: 023f8b854683a0c4baa1767660e3934d, type: 2}
+    fixedIngredient: {fileID: 11400000, guid: 919a666b676dad649a4d7c3174ad2373, type: 2}
     requiredOwner: 0
     requiredCategory: 0
-  - isFixedIngredient: 0
-    fixedIngredient: {fileID: 0}
-    requiredOwner: 1
-    requiredCategory: 1

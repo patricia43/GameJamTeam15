@@ -12,6 +12,9 @@ public class DraggableItem : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.IsGameplayBlocked())
+            return;
+
         if (!isDragging) return;
 
         FollowMouse();
@@ -42,6 +45,7 @@ public class DraggableItem : MonoBehaviour
             {
                 GlassManager.Instance.AddIngredient(ingredient);
                 // Debug.Log("Dropped: " + ingredient.ingredientName);
+                TutorialManager.Instance?.NotifyIngredientDropped(ingredient);
             }
         }
 
@@ -64,5 +68,7 @@ public class DraggableItem : MonoBehaviour
     public void BeginDrag()
     {
         isDragging = true;
+
+        TutorialManager.Instance?.NotifyIngredientPicked(ingredient);
     }
 }

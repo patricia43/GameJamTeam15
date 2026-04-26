@@ -3,7 +3,8 @@ using UnityEngine;
 public enum IngredientOwner
 {
     Player,
-    Barman
+    Barman,
+    Special
 }
 
 public enum IngredientCategory
@@ -11,7 +12,8 @@ public enum IngredientCategory
     People,
     Career,
     Places,
-    Objects
+    Objects,
+    Special
 }
 
 [CreateAssetMenu(menuName = "Bartender/Ingredient")]
