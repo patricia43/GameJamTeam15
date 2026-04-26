@@ -20,7 +20,7 @@ public class StartMenuManager : MonoBehaviour
     public void StartGame()
     {
         Debug.Log("Start Game button pressed.");
-        SceneManager.LoadScene("Set dress");
+        SceneManager.LoadScene("Set dress_cu animatii");
     }
 
     public void ExitGame()

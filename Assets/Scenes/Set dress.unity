@@ -6101,7 +6101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: -155}
+  m_AnchoredPosition: {x: 14, y: -167}
   m_SizeDelta: {x: 1993, y: 366}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337854538
@@ -6823,9 +6823,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: dbfa80a4a0c398d47bf6090ed0e70c1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1410830634}
-    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: dbfa80a4a0c398d47bf6090ed0e70c1a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1410830635}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: dbfa80a4a0c398d47bf6090ed0e70c1a, type: 3}
 --- !u!4 &1410830629 stripped
 Transform:
@@ -6933,28 +6930,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3a1613952bf98d44e81c171bc5f7a84f, type: 2}
   - {fileID: 11400000, guid: 1815d831e12bbc248b0ab4489d5429cf, type: 2}
   - {fileID: 11400000, guid: f4b5a5d12e86c394287a2ae3a7a5496f, type: 2}
---- !u!95 &1410830635
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1410830630}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bc21869006cce2d4da1b296fc239066a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1410999359
 GameObject:
   m_ObjectHideFlags: 0
