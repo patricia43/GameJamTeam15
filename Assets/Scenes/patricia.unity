@@ -4529,7 +4529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   tutorialManager: {fileID: 40337761}
-  cutsceneDuration: 2
+  cutsceneDuration: 0.1
   pausePanel: {fileID: 543971939}
 --- !u!4 &1441218222
 Transform:

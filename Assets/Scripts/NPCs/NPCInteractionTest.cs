@@ -66,6 +66,14 @@ public class NPCInteractionTest : MonoBehaviour
         if (serviceState != ServiceState.AtBar || currentState == NPCState.Dead)
             return;
 
+        //if (currentState == NPCState.Insane)
+        //{
+        //    StartCoroutine(InsaneServeSequence());
+        //}
+        //else
+        //{
+        //    StartCoroutine(ServeDrinkSequence(false));
+        //}
         StartCoroutine(ServeDrinkSequence(false));
     }
 
@@ -74,7 +82,29 @@ public class NPCInteractionTest : MonoBehaviour
         if (serviceState != ServiceState.AtBar || currentState == NPCState.Dead)
             return;
 
-        StartCoroutine(ServeDrinkSequence(true));
+        if (currentState == NPCState.Insane)
+        {
+            StartCoroutine(InsaneServeSequence());
+        }
+        else
+        {
+            StartCoroutine(ServeDrinkSequence(true));
+        }
+    }
+
+    IEnumerator InsaneServeSequence()
+    {
+        serviceState = ServiceState.Leaving;
+
+        // Say goodbye
+        npcDialogueController?.LeaveBar();
+        yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
+
+        // Move right
+        yield return StartCoroutine(MoveTo(exitPoint.position));
+
+        SetState(NPCState.Dead);
+        OnServiceFinished?.Invoke(this);
     }
 
     IEnumerator ServeDrinkSequence(bool delirium)
@@ -90,19 +120,24 @@ public class NPCInteractionTest : MonoBehaviour
             UpdateStateFromNormalDrinks();
         }
 
-        //Drinking dialogue
+        if (currentState == NPCState.Insane)
+        {
+            yield return StartCoroutine(InsaneServeSequence());
+            yield break;
+        }
+
+        // Drinking dialogue
         npcDialogueController?.ReceiveDrink();
         yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
 
-        //Animation delay
-        // TODO: FIX PUT ANIMATION HERE
+        // Animation delay
         yield return new WaitForSeconds(0.5f);
 
-        //Drop dialogue
+        // Drop dialogue
         npcDialogueController?.DropDrink();
         yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
 
-        //NOW move
+        // Move normally
         yield return StartCoroutine(AfterServiceSequence());
     }
 
@@ -140,17 +175,17 @@ public class NPCInteractionTest : MonoBehaviour
     //    }
     //}
 
-    IEnumerator MoveAndDie(Vector3 target)
-    {
-        // trigger exit dialogue
-        npcDialogueController?.LeaveBar();
+    //IEnumerator MoveAndDie(Vector3 target)
+    //{
+    //    // trigger exit dialogue
+    //    npcDialogueController?.LeaveBar();
 
-        yield return StartCoroutine(MoveTo(target));
+    //    yield return StartCoroutine(MoveTo(target));
 
-        SetState(NPCState.Dead);
+    //    SetState(NPCState.Dead);
 
-        OnServiceFinished?.Invoke(this);
-    }
+    //    OnServiceFinished?.Invoke(this);
+    //}
 
     IEnumerator MoveBackToQueue()
     {
@@ -207,9 +242,9 @@ public class NPCInteractionTest : MonoBehaviour
             SetState(NPCState.Mild);
         else if (normalDrinkCount == 2)
             SetState(NPCState.Wild);
-        else if (normalDrinkCount == 4)
+        else if (normalDrinkCount == 3)
             SetState(NPCState.Crazy);
-        else if (normalDrinkCount >= 6)
+        else if (normalDrinkCount >= 4)
             SetState(NPCState.Insane);
     }
 
@@ -224,12 +259,10 @@ public class NPCInteractionTest : MonoBehaviour
         {
             if (Random.value > 0.5f)
             {
-                // dies
-                StartCoroutine(MoveAndDie(exitPoint.position));
-                serviceState = ServiceState.Leaving;
-            } else
+                StartCoroutine(InstantDeathSequence());
+            }
+            else
             {
-                // goes back in line -> after no next drink => no more hit and drop line, just goodbye line 
                 SetState(NPCState.Insane);
             }
         }
@@ -237,6 +270,19 @@ public class NPCInteractionTest : MonoBehaviour
         {
             SetState(NPCState.Insane);
         }
+    }
+
+    IEnumerator InstantDeathSequence()
+    {
+        serviceState = ServiceState.Leaving;
+
+        npcDialogueController?.LeaveBar();
+        yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
+
+        yield return StartCoroutine(MoveTo(exitPoint.position));
+
+        SetState(NPCState.Dead);
+        OnServiceFinished?.Invoke(this);
     }
 
     void SetState(NPCState newState)
