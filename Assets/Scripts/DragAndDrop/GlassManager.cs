@@ -25,6 +25,9 @@ public class GlassManager : MonoBehaviour
 
     private void Update()
     {
+        //Debug.Log("State: " + GameManager.Instance.CurrentState +
+        //  " DialogueBlock: " + GameManager.Instance.IsDialogueActive);
+
         if (waitingForResultClick && Input.GetMouseButtonDown(0))
         {
             HideResultUI();
