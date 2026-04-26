@@ -46,6 +46,9 @@ public class DialogueManager : MonoBehaviour
         if (GameManager.Instance.CurrentState != GameState.Dialogue)
             return;
 
+        if (GameManager.Instance.IsMenuOpen())
+            return;
+
         if (lines.Count > 0 && Input.GetMouseButtonDown(0))
         {
             DisplayNextLine();
