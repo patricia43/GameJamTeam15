@@ -26,6 +26,18 @@ public class GameManager : MonoBehaviour
     [Header("Pause Settings")]
     [SerializeField] private GameObject pausePanel;
 
+    public bool IsDialogueActive { get; private set; }
+
+    public void StartDialogueBlock()
+    {
+        IsDialogueActive = true;
+    }
+
+    public void EndDialogueBlock()
+    {
+        IsDialogueActive = false;
+    }
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -141,6 +153,6 @@ public class GameManager : MonoBehaviour
         return CurrentState == GameState.Paused ||
                CurrentState == GameState.GameOver ||
                CurrentState == GameState.Cutscene ||
-               CurrentState == GameState.Dialogue;
+               IsDialogueActive;
     }
 }

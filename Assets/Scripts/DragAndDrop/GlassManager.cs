@@ -70,6 +70,8 @@ public class GlassManager : MonoBehaviour
         if (currentIngredients.Count == 0)
             return;
 
+        TutorialManager.Instance?.NotifyMixPressed();
+
         bool containsDelirium = false;
 
         List<IngredientData> filteredIngredients = new List<IngredientData>();
@@ -125,17 +127,27 @@ public class GlassManager : MonoBehaviour
         waitingForResultClick = true;
 
         // Optional: block gameplay while result is shown
-        GameManager.Instance.SetState(GameState.Dialogue);
+        // GameManager.Instance.SetState(GameState.Dialogue);
+        GameManager.Instance.StartDialogueBlock();
     }
 
     void HideResultUI()
     {
+        Debug.Log("HideResultUI called. Current state: " + GameManager.Instance.CurrentState);
+
         if (resultPanel != null)
             resultPanel.SetActive(false);
 
         waitingForResultClick = false;
 
-        GameManager.Instance.SetState(GameState.Playing);
+        GameManager.Instance.EndDialogueBlock();
+
+        // If tutorial is active, complete it
+        if (GameManager.Instance.CurrentState == GameState.Tutorial)
+        {
+            Debug.Log("Tutorial Complete!");
+            GameManager.Instance.SetState(GameState.Playing);
+        }
 
         ServeAfterMix();
     }

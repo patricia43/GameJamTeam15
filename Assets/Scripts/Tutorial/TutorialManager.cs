@@ -14,6 +14,8 @@ public class TutorialManager : MonoBehaviour
 
     private int step = 0;
 
+    public FlickerHighlight mixButtonHighlight;
+
     void Awake()
     {
         Instance = this;
@@ -52,10 +54,20 @@ public class TutorialManager : MonoBehaviour
         else if (step == 3 && ingredient == waterIngredient)
         {
             glassHighlight.StopFlicker();
-            step = 4;
-            Debug.Log("Tutorial Complete!");
+            mixButtonHighlight.StartFlicker();
+            step = 4; // waiting for Mix click
+        }
+    }
 
-            GameManager.Instance.SetState(GameState.Playing);
+    public void NotifyMixPressed()
+    {
+        if (GameManager.Instance.CurrentState != GameState.Tutorial)
+            return;
+
+        if (step == 4)
+        {
+            mixButtonHighlight.StopFlicker();
+            step = 5;
         }
     }
 
