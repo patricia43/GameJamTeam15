@@ -10,6 +10,8 @@ public class QueueManager : MonoBehaviour
     public Transform queuePoint;   // front of queue
     public float spacing = 1.5f;   // distance between NPCs
 
+    public NPCInteractionTest CurrentNPCAtBar { get; private set; }
+
     void Start()
     {
         foreach (var npc in npcQueue)
@@ -24,18 +26,17 @@ public class QueueManager : MonoBehaviour
 
     public void TakeOrder()
     {
-        if (npcQueue.Count == 0 || currentNPCAtBar != null)
+        if (npcQueue.Count == 0)
             return;
 
-        currentNPCAtBar = npcQueue[0];
+        NPCInteractionTest npc = npcQueue[0];
 
         npcQueue.RemoveAt(0);
-        npcQueue.Add(currentNPCAtBar);
+        npcQueue.Add(npc);
 
-        currentNPCAtBar.TakeOrder();
+        CurrentNPCAtBar = npc;
 
-        UpdateQueuePositions();
-        DebugQueueOrder();
+        npc.TakeOrder();
     }
 
     public void ServeDrink()

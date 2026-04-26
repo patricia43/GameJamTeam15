@@ -14,6 +14,10 @@ public class GlassManager : MonoBehaviour
 
     private bool waitingForResultClick = false;
 
+    public QueueManager queueManager;
+
+    private bool pendingServeWithDelirium = false;
+
     private void Awake()
     {
         Instance = this;
@@ -61,17 +65,23 @@ public class GlassManager : MonoBehaviour
     //    currentIngredients.Clear();
     //}
 
-    public void Mix()
+    public void MixAndServe()
     {
         if (currentIngredients.Count == 0)
             return;
+
+        bool containsDelirium = false;
 
         List<IngredientData> filteredIngredients = new List<IngredientData>();
 
         foreach (var ing in currentIngredients)
         {
-            if (!(ing.owner == IngredientOwner.Special &&
-                  ing.category == IngredientCategory.Special))
+            if (ing.owner == IngredientOwner.Special &&
+                ing.category == IngredientCategory.Special)
+            {
+                containsDelirium = true;
+            }
+            else
             {
                 filteredIngredients.Add(ing);
             }
@@ -84,7 +94,6 @@ public class GlassManager : MonoBehaviour
         for (int i = 0; i < currentIngredients.Count; i++)
         {
             ingredientList += currentIngredients[i].ingredientName;
-
             if (i < currentIngredients.Count - 1)
                 ingredientList += ", ";
         }
@@ -100,6 +109,9 @@ public class GlassManager : MonoBehaviour
         }
 
         currentIngredients.Clear();
+
+        // Store what type of serve should happen AFTER UI closes
+        pendingServeWithDelirium = containsDelirium;
     }
 
     void ShowResultUI(string message)
@@ -124,6 +136,21 @@ public class GlassManager : MonoBehaviour
         waitingForResultClick = false;
 
         GameManager.Instance.SetState(GameState.Playing);
+
+        ServeAfterMix();
+    }
+
+    void ServeAfterMix()
+    {
+        if (queueManager == null || queueManager.CurrentNPCAtBar == null)
+            return;
+
+        if (pendingServeWithDelirium)
+            queueManager.CurrentNPCAtBar.ServeDrinkWithDelirium();
+        else
+            queueManager.CurrentNPCAtBar.ServeDrink();
+
+        pendingServeWithDelirium = false;
     }
 
     void DebugCurrentIngredients()
