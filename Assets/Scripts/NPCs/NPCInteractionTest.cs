@@ -34,7 +34,7 @@ public class NPCInteractionTest : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         npcDialogueController = GetComponent<NPCController_ale>();
 
-        transform.position = queuePoint.position;
+        // transform.position = queuePoint.position;
         UpdateVisual();
     }
 

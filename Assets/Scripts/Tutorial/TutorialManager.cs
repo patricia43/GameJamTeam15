@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
+using UnityEngine.UI;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -16,14 +18,60 @@ public class TutorialManager : MonoBehaviour
 
     public FlickerHighlight mixButtonHighlight;
 
+    [Header("Tutorial UI")]
+    public GameObject tutorialMessagePanel;
+    public TextMeshProUGUI tutorialMessageText;
+
+    [Header("Buttons")]
+    public GameObject takeOrderButton;
+
+    private bool waitingForIntroClick = false;
+
     void Awake()
     {
         Instance = this;
     }
 
+    void Update()
+    {
+        if (waitingForIntroClick && Input.GetMouseButtonDown(0))
+        {
+            HideIntroMessage();
+        }
+    }
+
     public void BeginTutorial()
     {
         step = 0;
+
+        if (takeOrderButton != null)
+            takeOrderButton.SetActive(false);
+
+        ShowIntroMessage("Let's mix and serve a Lemonade to start!");
+    }
+
+    void ShowIntroMessage(string message)
+    {
+        if (tutorialMessageText != null)
+            tutorialMessageText.text = message;
+
+        if (tutorialMessagePanel != null)
+            tutorialMessagePanel.SetActive(true);
+
+        waitingForIntroClick = true;
+
+        GameManager.Instance.SetState(GameState.Dialogue);
+    }
+
+    void HideIntroMessage()
+    {
+        if (tutorialMessagePanel != null)
+            tutorialMessagePanel.SetActive(false);
+
+        waitingForIntroClick = false;
+
+        GameManager.Instance.SetState(GameState.Tutorial);
+
         lemonHighlight.StartFlicker();
     }
 
@@ -68,7 +116,19 @@ public class TutorialManager : MonoBehaviour
         {
             mixButtonHighlight.StopFlicker();
             step = 5;
+
+            CompleteTutorial();
         }
+    }
+
+    void CompleteTutorial()
+    {
+        Debug.Log("Tutorial Complete!");
+
+        if (takeOrderButton != null)
+            takeOrderButton.SetActive(true);
+
+        GameManager.Instance.SetState(GameState.Playing);
     }
 
     public bool CanInteractWith(IngredientData ingredient)
