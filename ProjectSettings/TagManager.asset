@@ -60,5 +60,8 @@ TagManager:
   - name: FG
     uniqueID: 73420717
     locked: 0
+  - name: UI
+    uniqueID: 4057356347
+    locked: 0
   m_RenderingLayers:
   - Default

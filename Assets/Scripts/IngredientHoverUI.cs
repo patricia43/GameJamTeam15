@@ -35,10 +35,13 @@ public class IngredientHoverUI : MonoBehaviour
 
     public void Show(string ingredientName, bool isDelirium)
     {
+        Debug.Log("Hover SHOW: " + ingredientName);
+
         text.text = ingredientName;
         text.color = isDelirium ? Color.red : Color.white;
         panel.SetActive(true);
     }
+
 
     public void Hide()
     {
