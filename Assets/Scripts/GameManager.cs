@@ -6,6 +6,7 @@ public enum GameState
     Cutscene,
     Tutorial,
     Playing,
+    Dialogue,
     Paused,
     GameOver
 }
@@ -14,7 +15,7 @@ public class GameManager : MonoBehaviour
 {
 
     [SerializeField] private TutorialManager tutorialManager;
-    [SerializeField] private float cutsceneDuration = 2f;
+    [SerializeField] private float cutsceneDuration = 0.1f;
 
     public static GameManager Instance;
 
@@ -57,7 +58,7 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (CurrentState == GameState.Playing)
+            if (CurrentState != GameState.Paused)
                 PauseGame();
             else if (CurrentState == GameState.Paused)
                 ResumeGame();
@@ -139,6 +140,7 @@ public class GameManager : MonoBehaviour
     {
         return CurrentState == GameState.Paused ||
                CurrentState == GameState.GameOver ||
-               CurrentState == GameState.Cutscene;
+               CurrentState == GameState.Cutscene ||
+               CurrentState == GameState.Dialogue;
     }
 }

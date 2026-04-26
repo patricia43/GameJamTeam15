@@ -1,7 +1,8 @@
-using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class DialogueManager : MonoBehaviour
 
     private List<DialogueLines> lines = new List<DialogueLines>();
     private int currentIndex = 0;
-    
+
+    public System.Action OnDialogueFinished;
+
     public void StartDialogue(DialogueLines[] dialogueLines)
     {
         lines.Clear();
@@ -21,11 +24,15 @@ public class DialogueManager : MonoBehaviour
 
         // DisplayNextLine();
         DisplayCurrentLine();
+
+        GameManager.Instance.SetState(GameState.Dialogue);
     }
 
     void Update()
     {
-        if (lines.Count > 0 && Input.GetKeyDown(KeyCode.Space))
+        if (lines.Count > 0 && Input.GetMouseButtonDown(0) 
+            // && !EventSystem.current.IsPointerOverGameObject()
+            )
         {
             DisplayNextLine();
         }
@@ -54,8 +61,12 @@ public class DialogueManager : MonoBehaviour
 
     private void EndDialogue()
     {
-        //Debug.Log("Dialgoue ended");
         dialoguePanel.SetActive(false);
         lines.Clear();
+
+        GameManager.Instance.SetState(GameState.Playing);
+
+        OnDialogueFinished?.Invoke();
+        OnDialogueFinished = null;
     }
 }

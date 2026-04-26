@@ -22,6 +22,7 @@ MonoBehaviour:
   drinkDialogue:
   - NPCName: NPC1
     text: Oh, my Lord!
+  dropDialogue:
   - NPCName: NPC1
     text: Well that was amazing indeed!
   - NPCName: Barman

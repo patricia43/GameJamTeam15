@@ -44,4 +44,14 @@ public class NPCController_ale : MonoBehaviour
             dialogueManager.StartDialogue(dialogueData.exitDialogue);
         }
     }
+
+    public void DropDrink()
+    {
+        currentDState = NPCDialogueState.Drinking;
+
+        if (dialogueData != null)
+        {
+            dialogueManager.StartDialogue(dialogueData.dropDialogue);
+        }
+    }
 }
