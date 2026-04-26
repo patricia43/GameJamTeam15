@@ -25,9 +25,12 @@ public class TutorialManager : MonoBehaviour
     [Header("Buttons")]
     public GameObject takeOrderButton;
 
-    [Header("Button Text Flicker")]
-    public FlickerText mixButtonTextFlicker;
-    public FlickerText takeOrderTextFlicker;
+    //[Header("Button Text Flicker")]
+    //public FlickerText mixButtonTextFlicker;
+    //public FlickerText takeOrderTextFlicker;
+
+    public FlickerImage mixButtonImageFlicker;
+    public FlickerImage takeOrderImageFlicker;
 
     private bool waitingForIntroClick = false;
 
@@ -67,7 +70,7 @@ public class TutorialManager : MonoBehaviour
             if (takeOrderButton != null)
                 takeOrderButton.SetActive(true);
 
-            takeOrderTextFlicker?.StartFlicker();
+            takeOrderImageFlicker?.StartFlicker();
 
             GameManager.Instance.SetState(GameState.Playing);
             step = 6;
@@ -153,7 +156,7 @@ public class TutorialManager : MonoBehaviour
         else if (step == 3 && ingredient == waterIngredient)
         {
             glassHighlight.StopFlicker();
-            mixButtonTextFlicker?.StartFlicker();
+            mixButtonImageFlicker?.StartFlicker();
             step = 4; // waiting for Mix click
         }
     }
@@ -165,7 +168,7 @@ public class TutorialManager : MonoBehaviour
 
         if (step == 4)
         {
-            mixButtonTextFlicker?.StopFlicker();
+            mixButtonImageFlicker?.StopFlicker();
             step = 5;
 
             CompleteTutorial();
@@ -175,6 +178,7 @@ public class TutorialManager : MonoBehaviour
     void CompleteTutorial()
     {
         ShowCompletionMessage("Now I am ready to take orders.");
+        takeOrderButton.SetActive(true);
     }
 
     void ShowCompletionMessage(string message)

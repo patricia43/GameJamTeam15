@@ -14,6 +14,9 @@ public class QueueManager : MonoBehaviour
 
     // public NPCInteractionTest CurrentNPCAtBar { get; private set; }
 
+    [SerializeField] private FlickerImage takeOrderImageFlicker;
+    private bool takeOrderUsedOnce = false;
+
     void Start()
     {
         foreach (var npc in npcQueue)
@@ -30,7 +33,15 @@ public class QueueManager : MonoBehaviour
 
     public void TakeOrder()
     {
-        if (npcQueue.Count == 0 || currentNPCAtBar != null)
+        if (!takeOrderUsedOnce)
+        {
+            takeOrderUsedOnce = true;
+
+            if (takeOrderImageFlicker != null)
+                takeOrderImageFlicker.StopFlicker();
+        }
+
+        if (npcQueue.Count == 0)
             return;
 
         NPCInteractionTest npc = npcQueue[0];
@@ -39,8 +50,6 @@ public class QueueManager : MonoBehaviour
         npcQueue.Add(npc);
 
         currentNPCAtBar = npc;
-
-        UpdateTakeOrderButton();   // hide immediately
 
         npc.TakeOrder();
     }
@@ -104,11 +113,6 @@ public class QueueManager : MonoBehaviour
 
     void UpdateTakeOrderButton()
     {
-        if (takeOrderButton == null)
-            return;
-
-        bool canTakeOrder = npcQueue.Count > 0 && currentNPCAtBar == null;
-
-        takeOrderButton.SetActive(canTakeOrder);
+        // Do nothing.
     }
 }

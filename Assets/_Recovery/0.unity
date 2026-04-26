@@ -177,15 +177,15 @@ RectTransform:
   m_GameObject: {fileID: 14913914}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5375537, y: 1.0668572, z: 1.0668572}
+  m_LocalScale: {x: 0.12713943, y: 0.53911144, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1337854537}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -30, y: -46}
-  m_SizeDelta: {x: 1075.4, y: 82}
+  m_AnchoredPosition: {x: -2, y: -19}
+  m_SizeDelta: {x: 727.9, y: 112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14913916
 MonoBehaviour:
@@ -207,12 +207,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The quick brown fox jumps over the lazy dogThe quick brown fox jumps over
-    the lazy dogThe quick brown fox jumps over the lazy dogThe quick brown fox jumps
-    over the lazy dog
+  m_text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fbb995b3cbb1bc94e903886b1329a99b, type: 2}
-  m_sharedMaterial: {fileID: -7286532168593105253, guid: fbb995b3cbb1bc94e903886b1329a99b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -236,8 +234,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -275,7 +273,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 20.016296, z: -35.056915, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4144,7 +4142,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 336, y: 89}
+  m_AnchoredPosition: {x: 349, y: 89}
   m_SizeDelta: {x: 373, y: 276}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &939751723
@@ -4774,11 +4772,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The quick brown fox jumps over the lazy dogThe quick brown fox jumps over
-    the lazy dogThe quick '
+  m_text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fbb995b3cbb1bc94e903886b1329a99b, type: 2}
-  m_sharedMaterial: {fileID: -7286532168593105253, guid: fbb995b3cbb1bc94e903886b1329a99b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4802,8 +4799,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4892,7 +4889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 337, y: -16}
+  m_AnchoredPosition: {x: 350, y: -16}
   m_SizeDelta: {x: 363, y: 563}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1073004668
@@ -5822,7 +5819,7 @@ RectTransform:
   m_GameObject: {fileID: 1337854536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.47987074, y: 0.6586565, z: 0.6586565}
+  m_LocalScale: {x: 8.297701, y: 1.9584645, z: 1.8038726}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 14913915}
@@ -5830,8 +5827,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: -167}
-  m_SizeDelta: {x: 1993, y: 366}
+  m_AnchoredPosition: {x: 1, y: -146}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337854538
 MonoBehaviour:
@@ -6696,7 +6693,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -259, y: -32.4}
+  m_AnchoredPosition: {x: -264.4, y: -32.4}
   m_SizeDelta: {x: 301, y: 346}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1410999361
@@ -6881,8 +6878,7 @@ MonoBehaviour:
   currentNPCAtBar: {fileID: 0}
   queuePoint: {fileID: 322582236}
   spacing: 1.5
-  takeOrderButton: {fileID: 1410999359}
-  takeOrderImageFlicker: {fileID: 1410999364}
+  takeOrderButton: {fileID: 160645228}
 --- !u!4 &1447220416
 Transform:
   m_ObjectHideFlags: 0
@@ -6935,7 +6931,7 @@ MonoBehaviour:
   mixButtonHighlight: {fileID: 1676108911}
   tutorialMessagePanel: {fileID: 1285400090}
   tutorialMessageText: {fileID: 1032246732}
-  takeOrderButton: {fileID: 1410999359}
+  takeOrderButton: {fileID: 160645228}
   mixButtonImageFlicker: {fileID: 1073004671}
   takeOrderImageFlicker: {fileID: 1410999364}
 --- !u!4 &1449151256
