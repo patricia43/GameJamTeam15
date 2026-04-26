@@ -28,6 +28,9 @@ public class GameManager : MonoBehaviour
 
     public bool IsDialogueActive { get; private set; }
 
+    private GameState previousState;
+
+
     public void StartDialogueBlock()
     {
         IsDialogueActive = true;
@@ -135,12 +138,16 @@ public class GameManager : MonoBehaviour
 
     public void PauseGame()
     {
+        if (CurrentState == GameState.Paused)
+            return;
+
+        previousState = CurrentState;
         SetState(GameState.Paused);
     }
 
     public void ResumeGame()
     {
-        SetState(GameState.Playing);
+        SetState(previousState);
     }
 
     public bool IsPaused()
@@ -150,9 +157,7 @@ public class GameManager : MonoBehaviour
 
     public bool IsGameplayBlocked()
     {
-        return CurrentState == GameState.Paused ||
-               CurrentState == GameState.GameOver ||
-               CurrentState == GameState.Cutscene ||
-               IsDialogueActive;
+        return CurrentState != GameState.Playing &&
+               CurrentState != GameState.Tutorial;
     }
 }

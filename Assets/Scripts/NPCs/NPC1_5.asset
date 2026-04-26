@@ -27,9 +27,9 @@ MonoBehaviour:
   - NPCName: NPC1
     text: Experiences shape us and what you sell here, is the ultimate mold!
   - NPCName: Barman
-    text: I... am not sure how to take in all that.... Thank you, sir!
+    text: I... am not sure how to take in all that.... Thank you, madame!
   exitDialogue:
   - NPCName: NPC1
     text: I am the infinite! I am the dream prowler! I am the darkness empowered!
   - NPCName: Barman
-    text: Sir, I think it is time to bid you a Good Night!
+    text: Ma'am, I think it is time to bid you a Good Night!

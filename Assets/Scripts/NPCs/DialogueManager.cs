@@ -43,9 +43,10 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if (lines.Count > 0 && Input.GetMouseButtonDown(0) 
-            // && !EventSystem.current.IsPointerOverGameObject()
-            )
+        if (GameManager.Instance.CurrentState != GameState.Dialogue)
+            return;
+
+        if (lines.Count > 0 && Input.GetMouseButtonDown(0))
         {
             DisplayNextLine();
         }
