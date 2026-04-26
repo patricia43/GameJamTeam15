@@ -48,7 +48,14 @@ public class DialogueManager : MonoBehaviour
 
         DialogueLines line = lines[currentIndex];
 
-        dialogueText.text = line.NPCName + ": " + line.text;
+        if (!string.IsNullOrEmpty(line.NPCName) && line.NPCName.ToLower() == "barman")
+            {
+                dialogueText.text = line.NPCName + ": " + line.text;
+            }
+            else
+            {
+                dialogueText.text = line.text;
+            }
 
         //Debug.Log(line.NPCName + ": " + line.text);
     }

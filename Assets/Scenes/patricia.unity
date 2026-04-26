@@ -4945,6 +4945,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GlassManager
   recipeDatabase: {fileID: 11400000, guid: 9970137c94265044aa31b51f84c837d0, type: 2}
+  resultText: {fileID: 112030191}
+  resultPanel: {fileID: 458088489}
 --- !u!4 &1639349267
 Transform:
   m_ObjectHideFlags: 0

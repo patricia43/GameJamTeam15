@@ -9,9 +9,22 @@ public class GlassManager : MonoBehaviour
 
     private List<IngredientData> currentIngredients = new List<IngredientData>();
 
+    public TMPro.TextMeshProUGUI resultText;
+    public GameObject resultPanel;
+
+    private bool waitingForResultClick = false;
+
     private void Awake()
     {
         Instance = this;
+    }
+
+    private void Update()
+    {
+        if (waitingForResultClick && Input.GetMouseButtonDown(0))
+        {
+            HideResultUI();
+        }
     }
 
     public void AddIngredient(IngredientData ingredient)
@@ -32,20 +45,85 @@ public class GlassManager : MonoBehaviour
         Debug.Log("Glass reset.");
     }
 
+    //public void Mix()
+    //{
+    //    var result = recipeDatabase.FindMatch(currentIngredients);
+
+    //    if (result != null)
+    //    {
+    //        Debug.Log("Created cocktail: " + result.cocktailName);
+    //    }
+    //    else
+    //    {
+    //        Debug.Log("Invalid cocktail!");
+    //    }
+
+    //    currentIngredients.Clear();
+    //}
+
     public void Mix()
     {
-        var result = recipeDatabase.FindMatch(currentIngredients);
+        if (currentIngredients.Count == 0)
+            return;
+
+        List<IngredientData> filteredIngredients = new List<IngredientData>();
+
+        foreach (var ing in currentIngredients)
+        {
+            if (!(ing.owner == IngredientOwner.Special &&
+                  ing.category == IngredientCategory.Special))
+            {
+                filteredIngredients.Add(ing);
+            }
+        }
+
+        var result = recipeDatabase.FindMatch(filteredIngredients);
+
+        string ingredientList = "";
+
+        for (int i = 0; i < currentIngredients.Count; i++)
+        {
+            ingredientList += currentIngredients[i].ingredientName;
+
+            if (i < currentIngredients.Count - 1)
+                ingredientList += ", ";
+        }
 
         if (result != null)
         {
-            Debug.Log("Created cocktail: " + result.cocktailName);
+            ShowResultUI("You made: " + result.cocktailName +
+                         "\nIngredients: " + ingredientList);
         }
         else
         {
-            Debug.Log("Invalid cocktail!");
+            ShowResultUI("Brand new cocktail recipe!\nIngredients: " + ingredientList);
         }
 
         currentIngredients.Clear();
+    }
+
+    void ShowResultUI(string message)
+    {
+        if (resultText != null)
+            resultText.text = message;
+
+        if (resultPanel != null)
+            resultPanel.SetActive(true);
+
+        waitingForResultClick = true;
+
+        // Optional: block gameplay while result is shown
+        GameManager.Instance.SetState(GameState.Dialogue);
+    }
+
+    void HideResultUI()
+    {
+        if (resultPanel != null)
+            resultPanel.SetActive(false);
+
+        waitingForResultClick = false;
+
+        GameManager.Instance.SetState(GameState.Playing);
     }
 
     void DebugCurrentIngredients()
