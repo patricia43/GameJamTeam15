@@ -1,0 +1,34 @@
+Trickshot
+
+by Team 15 aka The Chimichangas
+
+Assets used:
+
+1 piece of generated song, edited in Audacity
+1 piece of BBC library SFX (bucket_drinking_sound_comedy)
+
+Credits:
+
+Sanziana Covaliu
+// Environment Art
+// Prop Art
+// UI Art
+// VFX Art
+// SFX Art
+// Music
+// Game Design
+// Tech Art (Engine Implementation)
+// Character Rigging
+// Animation
+Patricia Octavia Sirboiu
+// Game Development
+// Interaction Logic
+// FSM
+// NPC Logic
+// Audio Implementation
+// UI Implementation
+Martin Alexandra-Ioana
+// Dialogue Logic
+Maria-Alexandra Contiu
+// Main Character Design
+// NPC Design
