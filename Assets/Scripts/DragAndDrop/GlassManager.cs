@@ -32,6 +32,20 @@ public class GlassManager : MonoBehaviour
         {
             HideResultUI();
         }
+        else if (!waitingForResultClick && Input.GetMouseButtonDown(0))
+        {
+            // Check if player clicked the glass
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Collider2D[] hits = Physics2D.OverlapPointAll(mousePos);
+            foreach (var hit in hits)
+            {
+                if (hit.CompareTag("Glass"))
+                {
+                    MixAndServe();
+                    break;
+                }
+            }
+        }
     }
 
     public void AddIngredient(IngredientData ingredient)
@@ -40,6 +54,35 @@ public class GlassManager : MonoBehaviour
         {
             Debug.LogError("Tried to add NULL ingredient!");
             return;
+        }
+
+        // Enforce Cap: Max 2 Normal, Max 1 Delirium (Skip during Tutorial)
+        if (GameManager.Instance.CurrentState != GameState.Tutorial)
+        {
+            int normalCount = 0;
+            bool hasDelirium = false;
+
+            foreach (var ing in currentIngredients)
+            {
+                if (ing.owner == IngredientOwner.Special && ing.category == IngredientCategory.Special)
+                    hasDelirium = true;
+                else
+                    normalCount++;
+            }
+
+            bool isDelirium = (ingredient.owner == IngredientOwner.Special && ingredient.category == IngredientCategory.Special);
+
+            if (isDelirium && hasDelirium)
+            {
+                Debug.Log("Cannot add another Delirium ingredient. Cap reached.");
+                return;
+            }
+            
+            if (!isDelirium && normalCount >= 2)
+            {
+                Debug.Log("Cannot add another Normal ingredient. Cap of 2 reached.");
+                return;
+            }
         }
         
         currentIngredients.Add(ingredient);
@@ -90,6 +133,20 @@ public class GlassManager : MonoBehaviour
             {
                 filteredIngredients.Add(ing);
             }
+        }
+
+        // Automatically add Barman's placeholder ingredient if NOT in tutorial
+        if (GameManager.Instance.CurrentState != GameState.Tutorial)
+        {
+            int barmanIngredientNr = Random.Range(1, 100);
+            IngredientData placeholderBarmanIngredient = ScriptableObject.CreateInstance<IngredientData>();
+            placeholderBarmanIngredient.ingredientName = "Barman_Ingredient_" + barmanIngredientNr;
+            placeholderBarmanIngredient.owner = IngredientOwner.Barman;
+            // Setting a default category, this can be expanded if specific categories are needed to match recipes.
+            placeholderBarmanIngredient.category = IngredientCategory.People; 
+            
+            filteredIngredients.Add(placeholderBarmanIngredient);
+            currentIngredients.Add(placeholderBarmanIngredient);
         }
 
         var result = recipeDatabase.FindMatch(filteredIngredients);

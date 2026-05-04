@@ -10,12 +10,7 @@ public class QueueManager : MonoBehaviour
     public Transform queuePoint;   // front of queue
     public float spacing = 1.5f;   // distance between NPCs
 
-    [SerializeField] private GameObject takeOrderButton;
-
     // public NPCInteractionTest CurrentNPCAtBar { get; private set; }
-
-    [SerializeField] private FlickerImage takeOrderImageFlicker;
-    private bool takeOrderUsedOnce = false;
 
     void Start()
     {
@@ -24,7 +19,11 @@ public class QueueManager : MonoBehaviour
             npc.OnServiceFinished += HandleServiceFinished;
         }
 
-        UpdateTakeOrderButton();
+        // Automatically call the first NPC
+        if (npcQueue.Count > 0 && currentNPCAtBar == null)
+        {
+            TakeOrder();
+        }
     }
 
     // ==========================
@@ -33,13 +32,7 @@ public class QueueManager : MonoBehaviour
 
     public void TakeOrder()
     {
-        if (!takeOrderUsedOnce)
-        {
-            takeOrderUsedOnce = true;
 
-            if (takeOrderImageFlicker != null)
-                takeOrderImageFlicker.StopFlicker();
-        }
 
         if (npcQueue.Count == 0)
             return;
@@ -88,7 +81,11 @@ public class QueueManager : MonoBehaviour
         UpdateQueuePositions();
         DebugQueueOrder();
 
-        UpdateTakeOrderButton();
+        // Auto call next NPC if any are waiting
+        if (npcQueue.Count > 0 && currentNPCAtBar == null)
+        {
+            TakeOrder();
+        }
     }
 
     void DebugQueueOrder()
@@ -111,8 +108,4 @@ public class QueueManager : MonoBehaviour
         }
     }
 
-    void UpdateTakeOrderButton()
-    {
-        // Do nothing.
-    }
 }
