@@ -6,4 +6,6 @@ public class NPCDialogue : ScriptableObject
     public DialogueLines[] drinkDialogue;
     public DialogueLines[] dropDialogue;
     public DialogueLines[] exitDialogue;
+    // ANTIGRAVITY: Added deathDialogue for the fatal condition.
+    public DialogueLines[] deathDialogue;
 }

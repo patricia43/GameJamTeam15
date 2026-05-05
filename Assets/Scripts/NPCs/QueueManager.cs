@@ -19,10 +19,28 @@ public class QueueManager : MonoBehaviour
             npc.OnServiceFinished += HandleServiceFinished;
         }
 
-        // Automatically call the first NPC
-        if (npcQueue.Count > 0 && currentNPCAtBar == null)
+        if (GameManager.Instance != null)
         {
-            TakeOrder();
+            GameManager.Instance.OnGameStateChanged += HandleGameStateChanged;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.OnGameStateChanged -= HandleGameStateChanged;
+        }
+    }
+
+    private void HandleGameStateChanged(GameState state)
+    {
+        if (state == GameState.Playing)
+        {
+            if (npcQueue.Count > 0 && currentNPCAtBar == null)
+            {
+                TakeOrder();
+            }
         }
     }
 

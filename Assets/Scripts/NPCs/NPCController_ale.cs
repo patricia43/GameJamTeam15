@@ -79,4 +79,21 @@ public class NPCController_ale : MonoBehaviour
         if (dialogue != null)
             dialogueManager.StartDialogue(dialogue.dropDialogue);
     }
+
+    // ANTIGRAVITY: Added LeaveBarDeath to trigger the fatal condition dialogue.
+    public void LeaveBarDeath()
+    {
+        currentDState = NPCDialogueState.Leaving;
+
+        if (dialogueSets == null || dialogueSets.Length == 0)
+            return;
+
+        int randomIndex = Random.Range(0, dialogueSets.Length);
+        var dialogue = dialogueSets[randomIndex];
+
+        if (dialogue != null && dialogue.deathDialogue != null && dialogue.deathDialogue.Length > 0)
+            dialogueManager.StartDialogue(dialogue.deathDialogue);
+        else if (dialogue != null)
+            dialogueManager.StartDialogue(dialogue.exitDialogue); // Fallback if no death dialogue exists
+    }
 }

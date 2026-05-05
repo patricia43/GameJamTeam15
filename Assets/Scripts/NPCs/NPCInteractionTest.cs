@@ -30,6 +30,8 @@ public class NPCInteractionTest : MonoBehaviour
     private NPCController_ale npcDialogueController;
 
     [SerializeField] private AudioClip serveDrinkSFX;
+    // ANTIGRAVITY: Added deathSFX for fatal condition.
+    [SerializeField] private AudioClip deathSFX;
 
     void Start()
     {
@@ -98,12 +100,19 @@ public class NPCInteractionTest : MonoBehaviour
     {
         serviceState = ServiceState.Leaving;
 
-        // Say goodbye
-        npcDialogueController?.LeaveBar();
+        // ANTIGRAVITY: Use fatal dialogue instead of normal exit dialogue
+        npcDialogueController?.LeaveBarDeath();
         yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
 
-        // Move right
+        // Move right (to point E)
         yield return StartCoroutine(MoveTo(exitPoint.position));
+
+        // ANTIGRAVITY: Play SFX and stop rendering sprite
+        if (AudioManager.instance != null && deathSFX != null)
+        {
+            AudioManager.instance.PlaySound(deathSFX, transform, 1f);
+        }
+        sr.enabled = false;
 
         SetState(NPCState.Dead);
         OnServiceFinished?.Invoke(this);
@@ -134,16 +143,12 @@ public class NPCInteractionTest : MonoBehaviour
             yield break;
         }
 
-        // Drinking dialogue
-        npcDialogueController?.ReceiveDrink();
-        yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
+        // ANTIGRAVITY: Removed the mid-drink dialogues (ReceiveDrink and DropDrink).
+        // The dialogue flow now waits for you to serve, then directly does the exit dialogue.
 
+        // TODO: Add NPC animation and VFX here
         // Animation delay
         yield return new WaitForSeconds(0.5f);
-
-        // Drop dialogue
-        npcDialogueController?.DropDrink();
-        yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
 
         // Move normally
         yield return StartCoroutine(AfterServiceSequence());
@@ -155,17 +160,28 @@ public class NPCInteractionTest : MonoBehaviour
         {
             serviceState = ServiceState.Leaving;
 
-            // Exit dialogue BEFORE moving
-            npcDialogueController?.LeaveBar();
+            // ANTIGRAVITY: Use fatal dialogue
+            npcDialogueController?.LeaveBarDeath();
             yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
 
             yield return StartCoroutine(MoveTo(exitPoint.position));
+
+            // ANTIGRAVITY: Play SFX and stop rendering sprite
+            if (AudioManager.instance != null && deathSFX != null)
+            {
+                AudioManager.instance.PlaySound(deathSFX, transform, 1f);
+            }
+            sr.enabled = false;
 
             SetState(NPCState.Dead);
             OnServiceFinished?.Invoke(this);
         }
         else
         {
+            // ANTIGRAVITY: Normal NPCs now say their exit dialogue BEFORE returning to the queue.
+            npcDialogueController?.LeaveBar();
+            yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
+
             yield return StartCoroutine(MoveBackToQueue());
         }
     }
@@ -286,10 +302,18 @@ public class NPCInteractionTest : MonoBehaviour
     {
         serviceState = ServiceState.Leaving;
 
-        npcDialogueController?.LeaveBar();
+        // ANTIGRAVITY: Use fatal dialogue
+        npcDialogueController?.LeaveBarDeath();
         yield return new WaitUntil(() => GameManager.Instance.CurrentState != GameState.Dialogue);
 
         yield return StartCoroutine(MoveTo(exitPoint.position));
+
+        // ANTIGRAVITY: Play SFX and stop rendering sprite
+        if (AudioManager.instance != null && deathSFX != null)
+        {
+            AudioManager.instance.PlaySound(deathSFX, transform, 1f);
+        }
+        sr.enabled = false;
 
         SetState(NPCState.Dead);
         OnServiceFinished?.Invoke(this);

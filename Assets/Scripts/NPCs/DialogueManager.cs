@@ -19,6 +19,7 @@ public class DialogueManager : MonoBehaviour
 
     private List<DialogueLines> lines = new List<DialogueLines>();
     private int currentIndex = 0;
+    private bool canAdvance = false;
 
     public System.Action OnDialogueFinished;
 
@@ -39,6 +40,15 @@ public class DialogueManager : MonoBehaviour
         GameManager.Instance.SetState(GameState.Dialogue);
 
         DisplayCurrentLine();
+
+        canAdvance = false;
+        StartCoroutine(EnableAdvanceDelay());
+    }
+
+    private System.Collections.IEnumerator EnableAdvanceDelay()
+    {
+        yield return null; // Wait one frame to avoid same-frame click registration
+        canAdvance = true;
     }
 
     void Update()
@@ -49,9 +59,11 @@ public class DialogueManager : MonoBehaviour
         if (GameManager.Instance.IsMenuOpen())
             return;
 
-        if (lines.Count > 0 && Input.GetMouseButtonDown(0))
+        if (canAdvance && lines.Count > 0 && Input.GetMouseButtonDown(0))
         {
+            canAdvance = false;
             DisplayNextLine();
+            StartCoroutine(EnableAdvanceDelay());
         }
     }
 
